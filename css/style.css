@@ -7,8 +7,11 @@ header {
   padding: 20px;
   background-color: rgb(61, 59, 59);
 }
-
- h1 {
+.nav {
+  position: fixed;
+  width: 100%;
+}
+h1 {
   display: inline-block;
   font-size: 48px;
   color: rgb(35, 182, 182);
@@ -30,6 +33,9 @@ li {
 }
 
 a {
- color: rgb(35, 182, 182);
+  color: rgb(35, 182, 182);
   text-decoration: none;
+}
+.profile {
+  width: 50%;
 }
