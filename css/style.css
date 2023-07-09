@@ -37,5 +37,33 @@ a {
   text-decoration: none;
 }
 .profile {
-  width: 50%;
+  width: 100%;
+}
+.vertical {
+  border-left: 5px solid #042443;
+  height: 200px;
+  position: absolute;
+  left: 29%;
+}
+h2 {
+  margin-left: 20%;
+}
+.work-page {
+  margin-left: 30%;
+}
+p {
+  margin-top: -40px;
+}
+.frameworks {
+  margin-left: -65px;
+  margin-top: 15px;
+}
+.table {
+  margin-top: 30px;
+  color: rgb(35, 182, 182);
+}
+footer {
+  margin-left: 25%;
+  padding-top: 40px;
+  margin-top: -40px;
 }
