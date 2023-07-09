@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(61, 59, 59);
+}
+
+ h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: rgb(35, 182, 182);
+}
+
+.links {
+  padding-top: 15px;
+  margin-right: 40px;
+  float: right;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+ color: rgb(35, 182, 182);
+  text-decoration: none;
+}
