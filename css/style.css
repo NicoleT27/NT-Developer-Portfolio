@@ -2,7 +2,9 @@
   --font-color: rgb(35, 182, 182);
   --border-styling: 8px solid #00487b;
   --seperation-line: 5px solid #024c82;
-  --absolute-position: position: absolute;
+  --absolute-position: absolute;
+  --hover-time: all 150ms ease-in-out;
+  --border-radius: 10px;
 }
 * {
   box-sizing: border-box;
@@ -41,6 +43,7 @@ li {
 }
 a:hover {
   font-size: 25px;
+  transition: var(--hover-time);
 }
 a {
   color: var(--font-color);
@@ -53,54 +56,55 @@ a {
   border: var(--border-styling);
 }
 .over-img {
-  position: var(--absolute-position)
+  position: var(--absolute-position);
   left: 65%;
   top: 20%;
   border: var(--border-styling);
+  border-radius: var(--border-radius);
 }
 .vertical {
   border-left: var(--seperation-line);
-  height: 120px;
-  position: var(--absolute-position)
+  height: 140px;
+  position: var(--absolute-position);
   left: 29%;
   margin-top: 15px;
 }
 .vertical-work {
   border-left: var(--seperation-line);
-  height: 715px;
-  position: var(--absolute-position)
+  height: 700px;
+  position: var(--absolute-position);
   left: 29%;
 }
 .vertical-contact {
   border-left: var(--seperation-line);
-  height: 40px;
-  position: var(--absolute-position)
+  height: 80px;
+  position: var(--absolute-position);
   left: 29%;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 .vertical-resume {
   border-left: var(--seperation-line);
-  height: 40px;
-  position: var(--absolute-position)
+  height: 80px;
+  position: var(--absolute-position);
   left: 29%;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 .about-page {
   margin-left: 30%;
 }
 p {
-  margin-top: -50px;
+  margin-top: -110px;
   font-size: 20px;
 }
 .frameworks {
   margin-left: -65px;
-  margin-top: 15px;
+  margin-top: 20px;
   padding-bottom: 20px;
   font-weight: 900;
   color: #3d3b3b;
 }
 .table {
-  margin-top: 30px;
+  margin-top: 100px;
   color: var(--font-color);
   font-size: 30px;
   margin-left: 180px;
@@ -110,38 +114,74 @@ p {
 }
 .weather {
   width: 60%;
-  margin-top: -85px;
+  margin-top: -155px;
   border: var(--border-styling);
   margin-left: 60px;
   transform: scale(1.2, 0.9);
+  border-radius: var(--border-radius);
 }
 .weather:hover {
   transform: scale(1.3, 1);
+  transition: var(--hover-time);
+}
+.weather-text {
+  position: absolute;
+  margin-left: 390px;
+  margin-top: -403px;
+  color: #024c82;
+  font-weight: 600;
+  background-color: var(--font-color);
+  padding: 20px 13px 20px 20px;
 }
 .world-clocks {
   width: 248px;
   border: var(--border-styling);
   transform: scale(1.3, 1.4);
   margin-left: 45px;
+  border-radius: var(--border-radius);
 }
 .world-clocks:hover {
   transform: scale(1.4, 1.5);
+  transition: var(--hover-time);
 }
+.clock-text {
+  position: absolute;
+  margin-left: 196px;
+  margin-top: -252px;
+  color: #024c82;
+  font-weight: 600;
+  background-color: var(--font-color);
+  padding: 15px;
+}
+
 .pink-page {
-  width: 290px;
+  width: 296px;
   border: var(--border-styling);
   transform: scale(1.2, 1.5);
   margin-right: 200px;
   margin-top: 7px;
+  border-radius: var(--border-radius);
 }
 .pink-page:hover {
   transform: scale(1.3, 1.6);
+  transition: var(--hover-time);
 }
+.pink-text {
+  position: absolute;
+  margin-left: 215px;
+  margin-top: -244px;
+  color: #024c82;
+  font-weight: 600;
+  background-color: var(--font-color);
+  padding: 20px;
+}
+
 .flex-container {
+  gap: 26px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow: visible;
+  flex-wrap: wrap;
 }
 .contact-page {
   margin-left: 25%;
@@ -152,13 +192,14 @@ p {
 .contact-page a:hover {
   color: #024c82;
   font-weight: bolder;
+  transition: var(--hover-time);
 }
 a {
   font-size: 20px;
 }
 .resume-page {
   margin-left: 30%;
-  margin-top: -30px;
+  margin-top: -25px;
 }
 footer {
   padding-bottom: 40px;
