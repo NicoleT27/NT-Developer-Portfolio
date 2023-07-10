@@ -1,9 +1,15 @@
+:root {
+  --font-color: rgb(35, 182, 182);
+  --border-styling: 8px solid #00487b;
+  --seperation-line: 5px solid #024c82;
+  --absolute-position: position: absolute;
+}
 * {
   box-sizing: border-box;
   margin: 0;
 }
 body {
-  background-color: azure;
+  background-color: #cae8f3;
 }
 header {
   padding: 20px;
@@ -15,7 +21,7 @@ header {
 h1 {
   display: inline-block;
   font-size: 48px;
-  color: rgb(35, 182, 182);
+  color: var(--font-color);
 }
 
 .links {
@@ -33,44 +39,49 @@ li {
   display: inline-block;
   margin-left: 25px;
 }
-
+a:hover {
+  font-size: 25px;
+}
 a {
-  color: rgb(35, 182, 182);
+  color: var(--font-color);
   text-decoration: none;
+  font-weight: bolder;
 }
 .profile {
   width: 100%;
   position: relative;
+  border: var(--border-styling);
 }
 .over-img {
-  position: absolute;
+  position: var(--absolute-position)
   left: 65%;
   top: 20%;
+  border: var(--border-styling);
 }
 .vertical {
-  border-left: 5px solid #024c82;
-  height: 80px;
-  position: absolute;
+  border-left: var(--seperation-line);
+  height: 120px;
+  position: var(--absolute-position)
   left: 29%;
   margin-top: 15px;
 }
 .vertical-work {
-  border-left: 5px solid #024c82;
-  height: 700px;
-  position: absolute;
+  border-left: var(--seperation-line);
+  height: 715px;
+  position: var(--absolute-position)
   left: 29%;
 }
 .vertical-contact {
-  border-left: 5px solid #024c82;
-  height: 60px;
-  position: absolute;
+  border-left: var(--seperation-line);
+  height: 40px;
+  position: var(--absolute-position)
   left: 29%;
   margin-top: 20px;
 }
 .vertical-resume {
-  border-left: 5px solid #024c82;
-  height: 60px;
-  position: absolute;
+  border-left: var(--seperation-line);
+  height: 40px;
+  position: var(--absolute-position)
   left: 29%;
   margin-top: 20px;
 }
@@ -90,7 +101,7 @@ p {
 }
 .table {
   margin-top: 30px;
-  color: rgb(35, 182, 182);
+  color: var(--font-color);
   font-size: 30px;
   margin-left: 180px;
 }
@@ -100,7 +111,7 @@ p {
 .weather {
   width: 60%;
   margin-top: -85px;
-  border: 8px solid rgb(175, 234, 234);
+  border: var(--border-styling);
   margin-left: 60px;
   transform: scale(1.2, 0.9);
 }
@@ -109,7 +120,7 @@ p {
 }
 .world-clocks {
   width: 248px;
-  border: 8px solid rgb(175, 234, 234);
+  border: var(--border-styling);
   transform: scale(1.3, 1.4);
   margin-left: 45px;
 }
@@ -118,7 +129,7 @@ p {
 }
 .pink-page {
   width: 290px;
-  border: 8px solid rgb(175, 234, 234);
+  border: var(--border-styling);
   transform: scale(1.2, 1.5);
   margin-right: 200px;
   margin-top: 7px;
@@ -136,6 +147,7 @@ p {
   margin-left: 25%;
   padding-top: 15px;
   margin-top: -40px;
+  color: #108092;
 }
 .contact-page a:hover {
   color: #024c82;
@@ -146,9 +158,8 @@ a {
 }
 .resume-page {
   margin-left: 30%;
+  margin-top: -30px;
 }
 footer {
   padding-bottom: 40px;
 }
-
-
