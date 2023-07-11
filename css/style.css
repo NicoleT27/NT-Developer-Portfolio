@@ -126,19 +126,20 @@ p {
 }
 .weather-text {
   position: absolute;
-  margin-left: 390px;
-  margin-top: -403px;
+  margin-left: 425px;
+  margin-top: -420px;
   color: #024c82;
   font-weight: 600;
   background-color: var(--font-color);
   padding: 20px 13px 20px 20px;
 }
-.world-clocks {
-  width: 248px;
+.world-clocks,
+.pink-page {
+  width: 300px;
   border: var(--border-styling);
-  transform: scale(1.3, 1.4);
-  margin-left: 45px;
   border-radius: var(--border-radius);
+  margin-top: -70px;
+  aspect-ratio: 1/1;
 }
 .world-clocks:hover {
   transform: scale(1.4, 1.5);
@@ -146,41 +147,40 @@ p {
 }
 .clock-text {
   position: absolute;
-  margin-left: 196px;
-  margin-top: -252px;
+  margin-left: 145px;
+  margin-top: -297px;
   color: #024c82;
   font-weight: 600;
   background-color: var(--font-color);
   padding: 15px;
 }
 
-.pink-page {
-  width: 296px;
-  border: var(--border-styling);
-  transform: scale(1.2, 1.5);
-  margin-right: 200px;
-  margin-top: 7px;
-  border-radius: var(--border-radius);
-}
 .pink-page:hover {
   transform: scale(1.3, 1.6);
   transition: var(--hover-time);
 }
 .pink-text {
   position: absolute;
-  margin-left: 215px;
-  margin-top: -244px;
+  margin-left: 176px;
+  margin-top: -297px;
   color: #024c82;
   font-weight: 600;
   background-color: var(--font-color);
   padding: 20px;
 }
-
 .flex-container {
-  gap: 26px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 900px;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.flex-container .world-clocks .pink-page {
+  width: 300px;
+  grid-template-columns: max-content;
+  grid-gap: 20px;
+  flex-direction: row;
 }
 .contact-page {
   margin-left: 25%;
@@ -230,24 +230,24 @@ footer {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  a:hover {
+    font-size: 23px;
+  }
   .over-img {
     width: 200px;
     margin-top: 80px;
     margin-left: -150px;
-  }
-  .links {
-    padding: 15px;
   }
   .links ul {
     margin-left: -70px;
     padding: 20px;
   }
   .table {
-    margin-left: 5px;
+    margin-left: 18px;
     inline-size: 20px;
   }
   p {
-    inline-size: 200px;
+    inline-size: 300px;
     overflow-wrap: break-word;
     margin-top: -150px;
   }
@@ -259,7 +259,7 @@ footer {
     margin-left: -10px;
   }
   .vertical-work {
-    height: 180px;
+    height: 183px;
     margin-left: -10px;
   }
   .vertical-contact {
@@ -275,26 +275,27 @@ footer {
     display: none;
   }
   .contact-page {
-    margin-left: 55px;
-    inline-size: 200px;
-    overflow-wrap: break-word;
+    inline-size: 180px;
+    margin-top: -90px;
+    line-height: 30px;
+  }
+  .contact-page ul {
+    margin-left: -045px;
   }
   .resume-page {
     inline-size: 100px;
+    margin-top: -60px;
   }
   .weather-text {
     margin-left: -10px;
     margin-top: -135px;
   }
   .clock-text {
-    margin-left: -150px;
+    margin-left: -60px;
     margin-top: -70px;
   }
   .pink-text {
-    margin-left: -290px;
+    margin-left: -110px;
     margin-top: -15px;
-  }
-  .contact-page {
-    margin-left: 80px;
   }
 }
