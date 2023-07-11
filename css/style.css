@@ -57,7 +57,7 @@ a {
 }
 .over-img {
   position: var(--absolute-position);
-  left: 65%;
+  left: 64%;
   top: 20%;
   border: var(--border-styling);
   border-radius: var(--border-radius);
@@ -179,7 +179,6 @@ p {
 .flex-container {
   gap: 26px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
