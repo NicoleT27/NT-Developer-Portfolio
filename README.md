@@ -23,4 +23,4 @@ Th following is a credit towards the FreePik website for providing the backgroun
 Image by <a href="https://www.freepik.com/free-vector/background-realistic-abstract-technology-particle_6938839.htm#query=website%20background&position=7&from_view=keyword&track=ais">Freepik</a> 
 
 Link to application:
-<a href="">Github Pages</a>
+<a href="https://nicolet27.github.io/NT-Developer-Portfolio/">Github Pages</a>
