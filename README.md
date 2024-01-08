@@ -42,6 +42,8 @@ There are 4 links provided that once clicked will open a separate tab to view th
 - Images used from freepik
 <a href="https://www.freepik.com/free-vector/background-realistic-abstract-technology-particle_6938839.htm#query=website%20background&position=7&from_view=keyword&track=ais">Freepik</a>
 
+- <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+
 ## GitHub-repository
 https://github.com/NicoleT27/NT-Developer-Portfolio
 
