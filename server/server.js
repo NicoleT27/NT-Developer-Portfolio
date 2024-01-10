@@ -8,7 +8,7 @@ const routes = require("./routes");
 const MongoStore = require("connect-mongo");
 const mongoose = require("mongoose");
 
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
