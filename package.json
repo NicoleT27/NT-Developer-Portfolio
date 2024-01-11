@@ -4,7 +4,8 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
-    "mongoose": "^8.0.3"
+    "mongoose": "^8.0.3",
+    "react-router-dom": "^6.21.2"
   },
   "name": "nt-developer-portfolio",
   "description": "## Description",
