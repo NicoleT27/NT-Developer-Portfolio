@@ -14,7 +14,7 @@
   background: hsl(95, 60%, 81%);
   z-index: -1;
   transition: transform .4s ease;
-   width: 150%;
+   width: 180%;
 }
 
 
@@ -34,8 +34,19 @@
     top: 0px;
     left: 18px;
     margin-top: 8px;
-    box-shadow: 0 0 3px rgba(192,192,192,0.9);
     animation: fill 5s infinite alternate, colors 5s infinite alternate;
+    overflow: visible;
+    position: relative;
+}
+.bar::after {
+    content: attr(data-label); 
+    position: absolute;
+    top: 0;
+   right: -75px;
+    font-size: 14px; 
+}
+.bar.fill0 {
+   animation:  fill-0 5s infinite alternate, colors 5s infinite alternate;
 }
 
 .bar.fill1 {
@@ -63,10 +74,12 @@
 .bar.fill6 {
    animation:  fill-6 5s infinite alternate, colors 5s infinite alternate;
 }
+.bar.fill7 {
+   animation:  fill-7 5s infinite alternate, colors 5s infinite alternate;
+}
 
 
-
-@keyframes fill {
+@keyframes fill-0 {
   0%   { width: 0; }
   33%  { width: 30px;}
   66%  { width: 10px;}
@@ -115,9 +128,20 @@
   66%  { width: 22px;}
   100% { width: 140px; }
 }
+@keyframes fill-7 {
+  0%   { width: 0; }
+  33%  { width: 30px;}
+  66%  { width: 10px;}
+  100% { width: 105px; }
+}
 
 @keyframes colors {
   0% { background-color: #3a3;}
   50% { background-color: #3a3;}
   100% { background-color: #3a3;}
+}
+
+.bar[data-label]::after {
+  font-weight:400;
+
 }

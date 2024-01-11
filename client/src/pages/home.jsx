@@ -16,22 +16,22 @@ function home()  {
         </div>
       </header>
       <div className="sliders">
-        <div class="bg-text-container">
-          <div class="animate-text">
+        <div className="bg-text-container">
+          <div className="animate-text">
             <span className="synonym">Developer&nbsp;</span>
             <span className="synonym">Developer&nbsp;</span>
           </div>
-          <div class="animate-text left">
+          <div className="animate-text left">
             <span className="synonym">Engineer&nbsp;</span>
             <span className="synonym">Engineer&nbsp;</span>
           </div>
         </div>
       </div>
-      <div class="card">
+      <div className="card">
         <h1>
           {" "}
           I am a
-          <div class="scroller">
+          <div className="scroller">
             <span>
               Developer
               <br />
