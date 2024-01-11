@@ -14,6 +14,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // app.use(routes);
 
+// app.get("/", (req, res) => {
+//   res.send("Hello, World!");
+// });
+
+
 db.once("open", () => {
   app.listen(PORT, () => {
     console.log(`Now listening on port ${PORT}`);
