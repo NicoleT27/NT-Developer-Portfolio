@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./about.css";
 import profile from "../assets/images/larger-profile-picture2.jpg";
+import aboutLeaf from "../assets/images/leaf.png";
 
 
 function about() {
@@ -8,7 +9,7 @@ function about() {
       <div>
         <header>
           <div className="header-text">
-            <h2>Nicole</h2>
+            <h2>Nicole Torres</h2>
           </div>
           <div className="navbar">
             <Link to="/">Home</Link>
@@ -33,6 +34,7 @@ function about() {
           <div className="bar fill6" data-label="Node.js"></div>
           <div className="bar fill7" data-label="SQL"></div>
         </div>
+        <img className="aboutLeaf" src={aboutLeaf} alt="svg of leaves" />
       </div>
     );
 }

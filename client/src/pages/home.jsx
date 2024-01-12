@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import "./home.css";
+import leafBg from "../assets/images/leaf-background.jpg";
+
 
 function home()  {
   return (
     <div>
       <header>
         <div className="header-text">
-          <h2>Nicole</h2>
+          <h2>Nicole Torres</h2>
         </div>
         <div className="navbar">
           <Link to="/">Home</Link>
@@ -33,17 +35,18 @@ function home()  {
           I am a
           <div className="scroller">
             <span>
-              Developer
+              Web Developer
               <br />
-              Engineer
+              Software Engineer
               <br />
-              Designer
+              Singer
               <br />
-              Dreamer
+              Travel Enthusiast
             </span>
           </div>
         </h1>
       </div>
+      <img className="leafBg" src={leafBg} alt="jpg of leaves" />
     </div>
   );
 }

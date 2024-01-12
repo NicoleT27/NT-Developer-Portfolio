@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import leftLeaf from "../assets/images/leftLeaf.png";
+import "./projects.css";
 
 function projects() {
   return (
     <header>
       <div className="header-text">
-        <h2>Nicole</h2>
+        <h2>Nicole Torres</h2>
       </div>
       <div className="navbar">
         <Link to="/">Home</Link>
@@ -13,9 +14,7 @@ function projects() {
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
       </div>
-      <div>
       <img className="leftLeaf" src={leftLeaf} alt="svg of leaves" />
-    </div>
     </header>
   );
 }

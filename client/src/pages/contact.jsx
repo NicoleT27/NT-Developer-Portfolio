@@ -7,7 +7,7 @@ function contact() {
     <div>
       <header>
         <div className="header-text">
-          <h2>Nicole</h2>
+          <h2>Nicole Torres</h2>
         </div>
         <div className="navbar">
           <Link to="/">Home</Link>
