@@ -11,7 +11,7 @@
   content: " ";
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
-  background: hsl(95, 60%, 81%);
+  background: #52822E;
   z-index: -1;
   transition: transform .4s ease;
    width: 180%;
@@ -25,9 +25,10 @@
     padding-top: 50px;
     padding-bottom: 24px;
     -webkit-transform: translateZ(0);
+     z-index:-1;
  }
 .bar {
-    border: solid;
+    border: solid #002201;
     position: relative;
     height: 25px;
     width:  0%;
@@ -42,9 +43,15 @@
     content: attr(data-label); 
     position: absolute;
     top: 0;
-   right: -75px;
-    font-size: 14px; 
+   right: -100px;
+    font-size: 19px; 
+    font-weight:bold;
 }
+.bg {
+   font-size: 25px; 
+   font-weight:bolder;
+}
+
 .bar.fill0 {
    animation:  fill-0 5s infinite alternate, colors 5s infinite alternate;
 }
@@ -136,12 +143,20 @@
 }
 
 @keyframes colors {
-  0% { background-color: #3a3;}
-  50% { background-color: #3a3;}
-  100% { background-color: #3a3;}
+  0% { background-color: #1A564B;}
+  50% { background-color: #52822E;}
+  100% { background-color: #1A564B;}
 }
 
 .bar[data-label]::after {
   font-weight:400;
+}
 
+.profile{
+border-radius: 15%;
+width: 30em;
+float: right;
+ z-index: 2;
+ margin-top: 3em;
+margin-right: 6em;
 }

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./about.css";
+import profile from "../assets/images/larger-profile-picture2.jpg";
+
 
 function about() {
     return (
@@ -15,6 +17,11 @@ function about() {
             <Link to="/contact">Contact</Link>
           </div>
         </header>
+        <img
+          className="profile"
+          src={profile}
+          alt="Profile Picture of Nicole"
+        />
         <div className="logo-holder">
           <div className="bg">Frameworks/Languages</div>
           <div className="bar fill0" data-label="Javascript"></div>

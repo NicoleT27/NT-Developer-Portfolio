@@ -282,3 +282,9 @@
 .letter-image:hover .shadow {
   width: 125px; 
 }
+.leaf{
+width: 60%;
+margin-left: 513px;
+margin-top: 96px;
+overflow-x: hidden;
+}

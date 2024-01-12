@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import leftLeaf from "../assets/images/leftLeaf.png";
 
 function projects() {
   return (
@@ -12,6 +13,9 @@ function projects() {
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
       </div>
+      <div>
+      <img className="leftLeaf" src={leftLeaf} alt="svg of leaves" />
+    </div>
     </header>
   );
 }

@@ -24,6 +24,7 @@ body {
 .navbar{
   display: flex;
 justify-content: flex-end;
+font-family: montserrat;
 }
 
 .navbar a {
@@ -39,10 +40,12 @@ justify-content: flex-end;
 
 .navbar a:hover{
 transform:translateY(-10px);
-background-color: green;
-color: rgb(9, 227, 74);
+background-color: #1A564B;
+color: #456D0C;
 }
-
+a:visited {
+    color: black;
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 }

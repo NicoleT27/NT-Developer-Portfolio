@@ -18,11 +18,11 @@ function home()  {
       <div className="sliders">
         <div className="bg-text-container">
           <div className="animate-text">
-            <span className="synonym">Developer&nbsp;</span>
+            <span className="synonym">Web&nbsp;</span>
             <span className="synonym">Developer&nbsp;</span>
           </div>
           <div className="animate-text left">
-            <span className="synonym">Engineer&nbsp;</span>
+            <span className="synonym">Software&nbsp;</span>
             <span className="synonym">Engineer&nbsp;</span>
           </div>
         </div>
