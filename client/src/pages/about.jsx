@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./about.css";
-import profile from "../assets/images/larger-profile-picture2.jpg";
+// import profile from "../assets/images/larger-profile-picture2.jpg";
 import aboutLeaf from "../assets/images/leaf.png";
 
 

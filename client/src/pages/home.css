@@ -1,19 +1,48 @@
-/* * {
-  box-sizing: border-box;
-  
-} */
-
-/* body {
-  overflow-y: hidden;
-} */
-body {
-  overflow-y: hidden;
-  background-image: url('../assets/images/leaf-background.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.container-links{
+  display: flex; 
+  margin-top: -30px;
+  margin-left: 50px;
+  margin-bottom: -25px;
+}
+.contact-me{
+  margin-left: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  background-color: #212529;
+  border:  solid #1A564B;
+}
+.contact-me:hover{
+transform:translateY(-10px);
+background-color: #1A564B;
+color: #456D0C;
 }
 
+.title{
+   margin-top: -30px;
+}
+
+h3{
+margin-top: -30px;
+font-size: 40px;
+color: #1A564B;
+} 
+
+.me{
+border-radius: 50%;
+width: 40%;
+margin-top: 25px;
+}
+
+.me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
 
 .sliders {
   font-family: montserrat;
@@ -48,7 +77,6 @@ body {
   font-size: 270px;
   color: transparent;
   -webkit-text-stroke: 2px #52822E;
-  /* #30442a; */
   text-transform: uppercase;
   display: inline-block;
   line-height: 0.60;
@@ -70,8 +98,9 @@ body {
 
 
 h1 {
-  font-size: 70px;
+  font-size: 65px;
   margin: 0;
+  margin-left: 50px;
 }
 
 h2{
