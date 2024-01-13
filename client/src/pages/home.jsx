@@ -8,13 +8,15 @@ function home()  {
     <div>
       <header>
         <div className="header-text">
-          <h2>NT.</h2>
+          <h2>NT</h2>
+          <h2 className="dot">.</h2>
         </div>
         <div className="navbar">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact </Link>
+          <Link to="/contact">Contact</Link>
+
           <a href="https://www.linkedin.com/in/nicolet27/">
             <iconify-icon icon="cib:linkedin"></iconify-icon>
           </a>
@@ -25,23 +27,38 @@ function home()  {
       </header>
       <div className="me-container">
         {" "}
-        <div className="header-name">
-          <h1>Nicole Torres</h1>
-          <div className="container-links">
-            <h6>Linkedin</h6>
-            <h6>|</h6>
-            <h6>Github</h6>
+        <div className="container-left">
+          <div className="header-name">
+            <h1>Nicole Torres</h1>
+            <div className="container-links">
+              <a href="https://www.linkedin.com/in/nicolet27/">
+                <h6>Linkedin</h6>
+              </a>
+              <h6 className="space">|</h6>
+              <a href="https://github.com/NicoleT27">
+                <h6>Github</h6>
+              </a>
+            </div>
+            <button className="contact-me">Contact Me</button>
           </div>
-          <button className="contact-me">Contact Me</button>
         </div>
         <img className="me" src={me} alt="Image of Nicole" />
         <div className="header-title">
           <h3>Introduction</h3>
           <h6 className="title">Full Stack Web Developer</h6>
-          <p>This is where I talk about myself</p>
-          <p>Learn More ↓</p>
+          <p className="paragraph-home">
+            I bring a unique perspective to software engineering, having
+            initially built my career as an Occupational Therapy Assistant.
+            Transitioning into software engineering, I seamlessly blend
+            technical proficiency with a compassionate approach, leveraging my
+            diverse background to drive innovative solutions and contribute
+            meaningfully to projects.
+          </p>
         </div>
       </div>
+      <Link to="" className="learn-more">
+        Learn More ↓
+      </Link>
       <div className="me-container">
         <div className="header-name"></div>
       </div>

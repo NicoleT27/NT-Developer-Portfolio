@@ -24,7 +24,7 @@ body {
 .header-name{
 font-size: 35px;
 color: #DEE2E6;
-margin-left: 20px;
+margin-left: -120px;
 }
 .header-title{
 font-size: 35px;
@@ -50,11 +50,11 @@ font-family: montserrat;
 
 .navbar a:hover{
 transform:translateY(-10px);
-background-color: #1A564B;
-color: #456D0C;
+background-color: #00AFB9;
+color: white;
 }
 a:visited {
-    color: black;
+    color: aliceblue;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
