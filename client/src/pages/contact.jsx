@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./contact.css";
-import leaf from "../assets/images/leaf.png";
 
 function contact() {
   return (
@@ -34,7 +33,6 @@ function contact() {
         </div>
         <div className="shadow"></div>
       </div>
-      <img className="leaf" src={leaf} alt="svg of leaves" />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./home.css";
-// import leafBg from "../assets/images/leaf-background.jpg";
 import me from "../assets/images/circle-me.jpg";
 
 function home()  {
@@ -65,38 +64,36 @@ function home()  {
     </div>
   );
 }
-
 export default home;
-
 {
-  /* <div className="sliders">
-        <div className="bg-text-container">
-          <div className="animate-text">
-            <span className="synonym">Web&nbsp;</span>
-            <span className="synonym">Developer&nbsp;</span>
-          </div>
-          <div className="animate-text left">
-            <span className="synonym">Software&nbsp;</span>
-            <span className="synonym">Engineer&nbsp;</span>
-          </div>
-        </div>
-      </div>
-      <div className="card">
-        <h1>
-          {" "}
-          I am a
-          <div className="scroller">
-            <span>
-              Web Developer
-              <br />
-              Software Engineer
-              <br />
-              Singer
-              <br />
-              Travel Enthusiast
-            </span>
-          </div>
-        </h1>
-      </div>
-      <img className="leafBg" src={leafBg} alt="jpg of leaves" /> */
+//  <div className="sliders">
+//         <div className="bg-text-container">
+//           <div className="animate-text">
+//             <span className="synonym">Web&nbsp;</span>
+//             <span className="synonym">Developer&nbsp;</span>
+//           </div>
+//           <div className="animate-text left">
+//             <span className="synonym">Software&nbsp;</span>
+//             <span className="synonym">Engineer&nbsp;</span>
+//           </div>
+//         </div>
+//       </div>
+//       <div className="card">
+//         <h1>
+//           {" "}
+//           I am a
+//           <div className="scroller">
+//             <span>
+//               Web Developer
+//               <br />
+//               Software Engineer
+//               <br />
+//               Singer
+//               <br />
+//               Travel Enthusiast
+//             </span>
+//           </div>
+//         </h1>
+//       </div>
+//       <img className="leafBg" src={leafBg} alt="jpg of leaves" /> 
 }

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./about.css";
 // import profile from "../assets/images/larger-profile-picture2.jpg";
-import aboutLeaf from "../assets/images/leaf.png";
+
 
 
 function about() {
@@ -18,11 +18,11 @@ function about() {
             <Link to="/contact">Contact</Link>
           </div>
         </header>
-        <img
+        {/* <img
           className="profile"
           src={profile}
           alt="Profile Picture of Nicole"
-        />
+        /> */}
         <div className="logo-holder">
           <div className="bg">Frameworks/Languages</div>
           <div className="bar fill0" data-label="Javascript"></div>
@@ -34,7 +34,6 @@ function about() {
           <div className="bar fill6" data-label="Node.js"></div>
           <div className="bar fill7" data-label="SQL"></div>
         </div>
-        <img className="aboutLeaf" src={aboutLeaf} alt="svg of leaves" />
       </div>
     );
 }
