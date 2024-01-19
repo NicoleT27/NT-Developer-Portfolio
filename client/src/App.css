@@ -7,8 +7,17 @@
 }
 
 body {
-  background-color: #212529;
-  font-family: 'Inconsolata', monospace;
+  background: linear-gradient(
+    to bottom,
+    #2C2D32 0%,
+    #2C2D32 50%,
+    #43454c 50%,
+    #43454c 100%
+    );
+     background-repeat: repeat-y;
+     background-size: 100% 200vh; 
+     height: 200vh;
+     font-family: 'Inconsolata', monospace;
 }
 
 .header-text{
