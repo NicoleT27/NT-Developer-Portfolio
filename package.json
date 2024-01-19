@@ -5,7 +5,8 @@
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "mongoose": "^8.0.3",
-    "react-router-dom": "^6.21.2"
+    "react-router-dom": "^6.21.2",
+    "react-scroll": "^1.9.0"
   },
   "name": "nt-developer-portfolio",
   "description": "## Description",
