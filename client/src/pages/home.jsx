@@ -1,21 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { Link as RouterLink } from "react-router-dom";
+import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import "./home.css";
 import "../../src/App.css";
-import "./contact.css";
-import "./about.css";
 import me from "../assets/images/profile-pic4.png";
-import HTML from "../assets/images/html.png";
-import CSS from "../assets/images/css.png";
-import ReactImg from "../assets/images/React.png";
-import JS from "../assets/images/JS-logo.png";
-import Mongo from "../assets/images/mongo.png";
-import Node from "../assets/images/node.png";
-import Express from "../assets/images/express.png";
-import Mysql from "../assets/images/MySQL-Logo.png";
-import jQuery from "../assets/images/jQuery.png";
-import Playful from "../assets/images/playful-pixels.png";
 
 function home() {
   return (
@@ -26,13 +13,15 @@ function home() {
           <h2 className="dot">.</h2>
         </div>
         <div className="navbar">
-          <ScrollLink to="" className="link" smooth={true} duration={500}>
+          <ScrollLink to="bg" className="link" smooth={true} duration={500}>
             About
           </ScrollLink>
-          <ScrollLink to="bg" className="link" smooth={true} duration={500}>
-            Skills
-          </ScrollLink>
-          <ScrollLink to="" className="link" smooth={true} duration={500}>
+          <ScrollLink
+            to="projects"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
             {" "}
             Projects
           </ScrollLink>
@@ -85,98 +74,15 @@ function home() {
       </ScrollLink>
       <div className="me-container"></div>
       <div className="header-name"></div>
-
-      {/* <div id="logo-holder" className="logo-holder"> */}
-        <h3 className="bg">Experience</h3>
-        <div className="media-scroller-container">
-          <div className="media-element">
-            <img src={HTML} />
-            <h2 className="lang">HTML</h2>
-          </div>
-          <div className="media-element">
-            <img src={CSS} />
-            <h2 className="lang">CSS</h2>
-          </div>
-          <div className="media-element">
-            <img src={ReactImg} />
-            <h2 className="lang">React</h2>
-          </div>
-          <div className="media-element">
-            <img src={JS} />
-            <h2 className="lang">JS</h2>
-          </div>
-          <div className="media-element">
-            <img src={Mongo} />
-            <h2 className="lang">Mongo</h2>
-          </div>
-          <div className="media-element">
-            <img src={Node} />
-            <h2 className="lang">Node</h2>
-          </div>
-          <div className="media-element">
-            <img src={Express} />
-            <h2 className="lang">Express</h2>
-          </div>
-          <div className="media-element">
-            <img src={Mysql} />
-            <h2 className="lang">MySQL</h2>
-          </div>
-          <div className="media-element">
-            <img src={jQuery} />
-            <h2 className="lang">jQuery</h2>
-          </div>
-        </div>
-        <div className="card-container1">
-          <div>Full Stack</div>
-          <div>Soft Skills</div>
-        </div>
-        <div className="card-container2">
-          <div>Front-End</div>
-          <div>Back-End</div>
-        </div>
-
-      {/* <div className="bar fill0" data-label="Javascript"></div>
-        <div className="bar fill1" data-label="MongoDB"></div>
-        <div className="bar fill2" data-label="CSS"></div>
-        <div className="bar fill3" data-label="React"></div>
-        <div className="bar fill4" data-label="HTML"></div>
-        <div className="bar fill5" data-label="Express.js"></div>
-        <div className="bar fill6" data-label="Node.js"></div>
-        <div className="bar fill7" data-label="SQL"></div> */}
-      {/* </div> */}
-      <div className="projects">
-        <img src={Playful} />
-        <p className="playful-desc">
-          This Project is a full MERN Stack utilizing topics such as hooks,JS,
-          HTML, CSS, React, MongoDB, Express, and Node.js.{" "}
-        </p>
-      </div>
-      <footer>
-        <div className="letter-image">
-          <div className="animated-mail">
-            <div className="back-fold"></div>
-            <div className="letter">
-              <div className="letter-border"></div>
-              <div className="letter-title"></div>
-              <div className="letter-context"></div>
-              <div className="letter-stamp">
-                <div className="letter-stamp-inner"></div>
-              </div>
-            </div>
-            <div className="top-fold"></div>
-            <div className="body"></div>
-            <div className="left-fold"></div>
-          </div>
-          <div className="shadow"></div>
-        </div>
-      </footer>
     </div>
   );
 }
 
 
 export default home;
-{
+
+{/* 
+  // extra word sliding page code 
   //  <div className="sliders">
   //         <div className="bg-text-container">
   //           <div className="animate-text">
@@ -207,4 +113,4 @@ export default home;
   //         </h1>
   //       </div>
   //       <img className="leafBg" src={leafBg} alt="jpg of leaves" />
-}
+} */}
