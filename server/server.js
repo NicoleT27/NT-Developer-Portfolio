@@ -2,9 +2,8 @@ require("dotenv").config();
 
 const path = require("path");
 const express = require("express");
-const session = require("express-session");
 const db = require("./config/connection");
-// const routes = require("./routes");
+const routes = require("./routes");
 const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
@@ -12,12 +11,7 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-// app.use(routes);
-
-// app.get("/", (req, res) => {
-//   res.send("Hello, World!");
-// });
-
+app.use(routes);
 
 db.once("open", () => {
   app.listen(PORT, () => {
