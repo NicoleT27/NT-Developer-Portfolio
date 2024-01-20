@@ -5,7 +5,7 @@ import "./home.css";
 import "../../src/App.css";
 import "./contact.css";
 import "./about.css";
-import me from "../assets/images/circle-me.jpg";
+import me from "../assets/images/profile-pic4.png";
 import HTML from "../assets/images/html.png";
 import CSS from "../assets/images/css.png";
 import ReactImg from "../assets/images/React.png";
@@ -15,6 +15,7 @@ import Node from "../assets/images/node.png";
 import Express from "../assets/images/express.png";
 import Mysql from "../assets/images/MySQL-Logo.png";
 import jQuery from "../assets/images/jquery.png";
+import Playful from "../assets/images/playful-pixels.png";
 
 function home() {
   return (
@@ -55,7 +56,7 @@ function home() {
             <h1>Nicole Torres</h1>
             <div className="container-links">
               <a href="https://www.linkedin.com/in/nicolet27/">
-                <h6>linkedin</h6>
+                <h6>Linkedin</h6>
               </a>
               <h6 className="space">|</h6>
               <a href="https://github.com/NicoleT27">
@@ -86,53 +87,53 @@ function home() {
       <div className="header-name"></div>
 
       {/* <div id="logo-holder" className="logo-holder"> */}
-      <h3 className="bg">Experience</h3>
-      <div className="media-scroller-container">
-        <div className="media-element">
-          <img src={HTML} />
-          <h2 className="lang">HTML</h2>
+        <h3 className="bg">Experience</h3>
+        <div className="media-scroller-container">
+          <div className="media-element">
+            <img src={HTML} />
+            <h2 className="lang">HTML</h2>
+          </div>
+          <div className="media-element">
+            <img src={CSS} />
+            <h2 className="lang">CSS</h2>
+          </div>
+          <div className="media-element">
+            <img src={ReactImg} />
+            <h2 className="lang">React</h2>
+          </div>
+          <div className="media-element">
+            <img src={JS} />
+            <h2 className="lang">JS</h2>
+          </div>
+          <div className="media-element">
+            <img src={Mongo} />
+            <h2 className="lang">Mongo</h2>
+          </div>
+          <div className="media-element">
+            <img src={Node} />
+            <h2 className="lang">Node</h2>
+          </div>
+          <div className="media-element">
+            <img src={Express} />
+            <h2 className="lang">Express</h2>
+          </div>
+          <div className="media-element">
+            <img src={Mysql} />
+            <h2 className="lang">MySQL</h2>
+          </div>
+          <div className="media-element">
+            <img src={jQuery} />
+            <h2 className="lang">jQuery</h2>
+          </div>
         </div>
-        <div className="media-element">
-          <img src={CSS} />
-          <h2 className="lang">CSS</h2>
+        <div className="card-container1">
+          <div>Full Stack</div>
+          <div>Soft Skills</div>
         </div>
-        <div className="media-element">
-          <img src={ReactImg} />
-          <h2 className="lang">React</h2>
+        <div className="card-container2">
+          <div>Front-End</div>
+          <div>Back-End</div>
         </div>
-        <div className="media-element">
-          <img src={JS} />
-          <h2 className="lang">JS</h2>
-        </div>
-        <div className="media-element">
-          <img src={Mongo} />
-          <h2 className="lang">Mongo</h2>
-        </div>
-        <div className="media-element">
-          <img src={Node} />
-          <h2 className="lang">Node</h2>
-        </div>
-        <div className="media-element">
-          <img src={Express} />
-          <h2 className="lang">Express</h2>
-        </div>
-        <div className="media-element">
-          <img src={Mysql} />
-          <h2 className="lang">MySQL</h2>
-        </div>
-        <div className="media-element">
-          <img src={jQuery} />
-          <h2 className="lang">jQuery</h2>
-        </div>
-      </div>
-      <div className="card-container1">
-        <div>Full Stack</div>
-        <div>Soft Skills</div>
-      </div>
-      <div className="card-container2">
-        <div>Front-End</div>
-        <div>Back-End</div>
-      </div>
 
       {/* <div className="bar fill0" data-label="Javascript"></div>
         <div className="bar fill1" data-label="MongoDB"></div>
@@ -144,16 +145,10 @@ function home() {
         <div className="bar fill7" data-label="SQL"></div> */}
       {/* </div> */}
       <div className="projects">
-        <p>
-          This is where page three comes in talking about the projects worked
-          on. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          ipsa fuga impedit soluta libero odit pariatur veritatis fugit maxime
-          commodi ducimus voluptates repellendus, natus itaque facilis!
-          Voluptatum voluptate facilis quibusdam. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Saepe provident expedita nostrum dolorum
-          alias! Repellendus quos numquam distinctio accusamus, fuga, veritatis
-          asperiores, repellat delectus omnis esse sit cupiditate aut
-          laudantium.{" "}
+        <img src={Playful} />
+        <p className="playful-desc">
+          This Project is a full MERN Stack utilizing topics such as hooks,JS,
+          HTML, CSS, React, MongoDB, Express, and Node.js.{" "}
         </p>
       </div>
       <footer>

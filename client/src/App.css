@@ -9,10 +9,14 @@
 body {
   background: linear-gradient(
     to bottom,
-    #2C2D32 0%,
+    #3C3E40 0%,
+    #3C3E40 50%,
+    #252729 50%,
+    #252729 100%
+    /* #2C2D32 0%,
     #2C2D32 50%,
     #43454c 50%,
-    #43454c 100%
+    #43454c 100% */
     );
      background-repeat: repeat-y;
      background-size: 100% 200vh; 
@@ -60,7 +64,7 @@ font-family: montserrat;
 
 .navbar a:hover{
 transform:translateY(-10px);
-background-color: #00AFB9;
+background-color: #DC2F02;
 color: white;
 }
 a:visited {
