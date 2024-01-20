@@ -25,14 +25,11 @@ function home() {
           <h2 className="dot">.</h2>
         </div>
         <div className="navbar">
-          {/* <RouterLink to="/">Home</RouterLink> */}
-          <ScrollLink
-            to="bg"
-            className="link"
-            smooth={true}
-            duration={500}
-          >
+          <ScrollLink to="" className="link" smooth={true} duration={500}>
             About
+          </ScrollLink>
+          <ScrollLink to="bg" className="link" smooth={true} duration={500}>
+            Skills
           </ScrollLink>
           <ScrollLink to="" className="link" smooth={true} duration={500}>
             {" "}
@@ -82,19 +79,14 @@ function home() {
           </p>
         </div>
       </div>
-      <ScrollLink
-        to="bg"
-        className="learn-more"
-        smooth={true}
-        duration={500}
-      >
+      <ScrollLink to="bg" className="learn-more" smooth={true} duration={500}>
         Learn More ↓
       </ScrollLink>
       <div className="me-container"></div>
       <div className="header-name"></div>
 
       {/* <div id="logo-holder" className="logo-holder"> */}
-      <h3 className="bg">Frameworks/Languages</h3>
+      <h3 className="bg">Experience</h3>
       <div className="media-scroller-container">
         <div className="media-element">
           <img src={HTML} />
@@ -133,6 +125,15 @@ function home() {
           <h2 className="lang">jQuery</h2>
         </div>
       </div>
+      <div className="card-container1">
+        <div>Full Stack</div>
+        <div>Soft Skills</div>
+      </div>
+      <div className="card-container2">
+        <div>Front-End</div>
+        <div>Back-End</div>
+      </div>
+
       {/* <div className="bar fill0" data-label="Javascript"></div>
         <div className="bar fill1" data-label="MongoDB"></div>
         <div className="bar fill2" data-label="CSS"></div>
@@ -143,7 +144,17 @@ function home() {
         <div className="bar fill7" data-label="SQL"></div> */}
       {/* </div> */}
       <div className="projects">
-        <p>This is where page three comes in talking about the projects worked on. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa fuga impedit soluta libero odit pariatur veritatis fugit maxime commodi ducimus voluptates repellendus, natus itaque facilis! Voluptatum voluptate facilis quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident expedita nostrum dolorum alias! Repellendus quos numquam distinctio accusamus, fuga, veritatis asperiores, repellat delectus omnis esse sit cupiditate aut laudantium. </p>
+        <p>
+          This is where page three comes in talking about the projects worked
+          on. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+          ipsa fuga impedit soluta libero odit pariatur veritatis fugit maxime
+          commodi ducimus voluptates repellendus, natus itaque facilis!
+          Voluptatum voluptate facilis quibusdam. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Saepe provident expedita nostrum dolorum
+          alias! Repellendus quos numquam distinctio accusamus, fuga, veritatis
+          asperiores, repellat delectus omnis esse sit cupiditate aut
+          laudantium.{" "}
+        </p>
       </div>
       <footer>
         <div className="letter-image">
