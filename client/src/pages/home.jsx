@@ -6,6 +6,15 @@ import "../../src/App.css";
 import "./contact.css";
 import "./about.css";
 import me from "../assets/images/circle-me.jpg";
+import HTML from "../assets/images/html.png";
+import CSS from "../assets/images/css.png";
+import ReactImg from "../assets/images/React.png";
+import JS from "../assets/images/JS-logo.png";
+import Mongo from "../assets/images/mongo.png";
+import Node from "../assets/images/node.png";
+import Express from "../assets/images/express.png";
+import Mysql from "../assets/images/MySQL-Logo.png";
+import jQuery from "../assets/images/jquery.png";
 
 function home() {
   return (
@@ -16,10 +25,23 @@ function home() {
           <h2 className="dot">.</h2>
         </div>
         <div className="navbar">
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-          <RouterLink to="/projects">Projects</RouterLink>
-          <RouterLink to="/contact">Contact</RouterLink>
+          {/* <RouterLink to="/">Home</RouterLink> */}
+          <ScrollLink
+            to="logo-holder"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
+            About
+          </ScrollLink>
+          <ScrollLink to="" className="link" smooth={true} duration={500}>
+            {" "}
+            Projects
+          </ScrollLink>
+          <ScrollLink to="" className="link" smooth={true} duration={500}>
+            {" "}
+            Contact
+          </ScrollLink>
 
           <a href="https://www.linkedin.com/in/nicolet27/">
             <iconify-icon icon="cib:linkedin"></iconify-icon>
@@ -71,17 +93,55 @@ function home() {
       <div className="me-container"></div>
       <div className="header-name"></div>
 
-      <div id="logo-holder" className="logo-holder">
-        <div className="bg">Frameworks/Languages</div>
-        <div className="bar fill0" data-label="Javascript"></div>
+      {/* <div id="logo-holder" className="logo-holder"> */}
+      <h3 className="bg">Frameworks/Languages</h3>
+      <div className="media-scroller-container">
+        <div className="media-element">
+          <img src={HTML} />
+          <h2 className="lang">HTML</h2>
+        </div>
+        <div className="media-element">
+          <img src={CSS} />
+          <h2 className="lang">CSS</h2>
+        </div>
+        <div className="media-element">
+          <img src={ReactImg} />
+          <h2 className="lang">React</h2>
+        </div>
+        <div className="media-element">
+          <img src={JS} />
+          <h2 className="lang">JS</h2>
+        </div>
+        <div className="media-element">
+          <img src={Mongo} />
+          <h2 className="lang">Mongo</h2>
+        </div>
+        <div className="media-element">
+          <img src={Node} />
+          <h2 className="lang">Node</h2>
+        </div>
+        <div className="media-element">
+          <img src={Express} />
+          <h2 className="lang">Express</h2>
+        </div>
+        <div className="media-element">
+          <img src={Mysql} />
+          <h2 className="lang">MySQL</h2>
+        </div>
+        <div className="media-element">
+          <img src={jQuery} />
+          <h2 className="lang">jQuery</h2>
+        </div>
+      </div>
+      {/* <div className="bar fill0" data-label="Javascript"></div>
         <div className="bar fill1" data-label="MongoDB"></div>
         <div className="bar fill2" data-label="CSS"></div>
         <div className="bar fill3" data-label="React"></div>
         <div className="bar fill4" data-label="HTML"></div>
         <div className="bar fill5" data-label="Express.js"></div>
         <div className="bar fill6" data-label="Node.js"></div>
-        <div className="bar fill7" data-label="SQL"></div>
-      </div>
+        <div className="bar fill7" data-label="SQL"></div> */}
+      {/* </div> */}
       <footer>
         <div className="letter-image">
           <div className="animated-mail">

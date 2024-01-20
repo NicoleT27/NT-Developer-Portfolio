@@ -19,17 +19,15 @@
 
 
 .logo-holder {
-    background: #FBECD4;
     position: relative;
     margin: 20px;
-    margin-left: 20%;
     padding-top: 50px;
     padding-bottom: 24px;
     -webkit-transform: translateZ(0);
      z-index:-1;
  }
 .bar {
-    border: solid #002201;
+    border: solid #000022;
     position: relative;
     height: 25px;
     width:  0%;
@@ -49,8 +47,7 @@
     font-weight:bold;
 }
 .bg {
-   font-size: 25px; 
-   font-weight:bolder;
+   font-size: 40px; 
 }
 
 .bar.fill0 {
@@ -144,9 +141,9 @@
 }
 
 @keyframes colors {
-  0% { background-color: #1A564B;}
-  50% { background-color: #427D0A}
-  100% { background-color: #4E4E06}
+  0% { background-color: #00AFB9;}
+  50% { background-color: #0088b9}
+  100% { background-color: #0050b9}
 }
 
 .bar[data-label]::after {
