@@ -57,4 +57,4 @@ There are 4 links provided that once clicked will open a separate tab to view th
 https://github.com/NicoleT27/NT-Developer-Portfolio
 
 ## Deployed-application-link
-<a href="https://nicolet27.github.io/NT-Developer-Portfolio/">Github Pages</a>
+https://nt-portfolio-8c4622b0c7ab.herokuapp.com/
