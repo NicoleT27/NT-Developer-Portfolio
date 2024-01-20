@@ -14,7 +14,7 @@ import Mongo from "../assets/images/mongo.png";
 import Node from "../assets/images/node.png";
 import Express from "../assets/images/express.png";
 import Mysql from "../assets/images/MySQL-Logo.png";
-import jQuery from "../assets/images/jquery.png";
+import jQuery from "../assets/images/jQuery.png";
 import Playful from "../assets/images/playful-pixels.png";
 
 function home() {
