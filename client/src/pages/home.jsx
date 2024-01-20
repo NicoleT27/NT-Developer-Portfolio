@@ -27,7 +27,7 @@ function home() {
         <div className="navbar">
           {/* <RouterLink to="/">Home</RouterLink> */}
           <ScrollLink
-            to="logo-holder"
+            to="bg"
             className="link"
             smooth={true}
             duration={500}
@@ -83,7 +83,7 @@ function home() {
         </div>
       </div>
       <ScrollLink
-        to="logo-holder"
+        to="bg"
         className="learn-more"
         smooth={true}
         duration={500}
@@ -142,6 +142,9 @@ function home() {
         <div className="bar fill6" data-label="Node.js"></div>
         <div className="bar fill7" data-label="SQL"></div> */}
       {/* </div> */}
+      <div className="projects">
+        <p>This is where page three comes in talking about the projects worked on. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa fuga impedit soluta libero odit pariatur veritatis fugit maxime commodi ducimus voluptates repellendus, natus itaque facilis! Voluptatum voluptate facilis quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident expedita nostrum dolorum alias! Repellendus quos numquam distinctio accusamus, fuga, veritatis asperiores, repellat delectus omnis esse sit cupiditate aut laudantium. </p>
+      </div>
       <footer>
         <div className="letter-image">
           <div className="animated-mail">
