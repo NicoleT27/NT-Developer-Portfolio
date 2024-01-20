@@ -23,26 +23,24 @@ This webpage was created to provide information on Nicole Torres and her experie
 - [Deployed-application-link](#deployed-application-link)
 
 ## Badges
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow.svg)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![github](https://img.shields.io/badge/github-Profile-lightgrey.svg)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## Usage
 
-To use this webpage you can click on the diffrent links in the navigation bar that will jump your screen to the selected section of the page (About me, Work , Contact me , and Resume).
-![Navigation links](images/navigation-screenshot.png)
+1. To use this webpage you can click on the diffrent links in the navigation bar that will expedite your screen to the selected section of the page (About, Skills,Projects, and Contact).
 
-The About section gives further information as to why Nicole chose Web Development and the frameworks she's learned.
-![About me section](images/about-screenshot.png)
+2. The About section gives further information as to the frameworks she's learned.
 
-The projects Nicole has completed are laid out in an easily readable format which can be accessed via clicking either on the image itself or the project name. Once clicked a new tab will open with the corresponding project to view.
-![Projects](images/projects-screenshot.png)
+3. The projects Nicole has completed are laid out in an easily readable format which can be accessed via clicking either on the image itself or the project name. Once clicked a new tab will open with the corresponding project to view.
 
-There are 4 links provided that once clicked will open a separate tab to view the corresponding page chosen. Each link will give access to different contact information and webpages that host the successful webpages that have been deployed along with the codes.
-![Contact Links](images/contact-info-screenshot.png)
 
 ## License
 ![Github License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -57,4 +55,4 @@ There are 4 links provided that once clicked will open a separate tab to view th
 https://github.com/NicoleT27/NT-Developer-Portfolio
 
 ## Deployed-application-link
-<a href="https://nicolet27.github.io/NT-Developer-Portfolio/">Github Pages</a>
+https://nt-portfolio-8c4622b0c7ab.herokuapp.com/
