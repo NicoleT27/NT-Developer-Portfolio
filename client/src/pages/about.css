@@ -1,3 +1,4 @@
+
 .header-text::before {  
   transform: scaleX(0);
   transform-origin: bottom right;

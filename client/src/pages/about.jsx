@@ -8,6 +8,7 @@ import Node from "../assets/images/nodejs.png";
 import Express from "../assets/images/express.png";
 import Mysql from "../assets/images/MySQL-Logo.png";
 import jQuery from "../assets/images/jQuery.png";
+import git from "../assets/images/git.png";
   
   
   function About() {
@@ -63,6 +64,10 @@ import jQuery from "../assets/images/jQuery.png";
         <div className="media-element">
           <img src={jQuery} />
           <h2 className="lang">jQuery</h2>
+        </div>
+        <div className="media-element">
+          <img src={git} />
+          <h2 className="lang">Git</h2>
         </div>
       </div>
     </div>

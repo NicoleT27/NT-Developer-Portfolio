@@ -1,0 +1,35 @@
+.project-title {
+  font-size: 7em;
+  text-align: center;
+  color: #ab112d ;
+  padding-top: 0.90em;
+} 
+h3{
+    font-size: 30px;
+}
+
+.vertical-timeline-element-content{
+   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+.vertical-timeline-element-subtitle{
+    padding-top: 15px;
+    font-size: 18px;
+}
+#description{
+   padding-top: -5px;  
+   padding-bottom: 20px;
+}
+.date{
+    color: white;
+}
+.button{
+  text-decoration: none;
+  background-color: #DC2F02;
+  border-radius: 10px;
+  padding: 8px;
+}
+.button:hover{
+  background-color: #dc8802;
+}
