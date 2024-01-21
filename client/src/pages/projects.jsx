@@ -29,7 +29,7 @@ let orangeIconStyles = { background: "#F48C06" };
               dateClassName="date"
               iconStyle={isRedIcon ? redIconStyles : orangeIconStyles}
               icon={element.icon}
-              iconClassName="keyboard"
+              iconClassName="icon"
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
