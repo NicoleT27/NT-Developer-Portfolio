@@ -30,6 +30,25 @@ h3{
   border-radius: 10px;
   padding: 8px;
 }
-.button:hover{
+.buttonText1:hover, .buttonText2:hover{
   background-color: #dc8802;
+}
+.buttonText1{
+  background-color: #DC2F02;
+  padding: 10px;
+  border-radius: 10px;
+  /* padding-right: 30px; */
+}
+.buttonText2{
+  background-color: #DC2F02;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content:flex-end;
+}
+.buttonText1,.buttonText2{
+margin-right: 30px;
+}
+.keyboard{
+font-size: 40px;
+text-align: center;
 }

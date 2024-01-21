@@ -1,10 +1,5 @@
 import React from "react";
 import "./projects.css"
-// import WorkIcon from "../assets/images/work.svg";
-// import SchoolIcon from "../assets/images/work.svg";
-
-// import { ReactComponent as WorkIcon } from "../assets/images/work.svg";
-// import { ReactComponent as SchoolIcon } from "../assets/images/school.svg";
 import timelineElements from "./timelineElements";
 import {
   VerticalTimeline,
@@ -14,45 +9,55 @@ import "react-vertical-timeline-component/style.min.css";
 
 
 function Projects() {
-let workIconStyles = { background: "#DC2F02" };
-let schoolIconStyles = { background: "#F48C06" };
+let redIconStyles = { background: "#DC2F02" };
+let orangeIconStyles = { background: "#F48C06" };
 
   return (
     <div className="projects">
     <h3 className="project-title">Projects</h3>
       <VerticalTimeline>
-        {/* <h3 className="project-title">Projects</h3> */}
         {timelineElements.map((element) => {
-          let isWorkIcon = element.icon === "work";
+          let isRedIcon = element.iconColor === "red";
           let showButton =
-            element.buttonText !== undefined &&
-            element.buttonText !== null &&
-            element.buttonText !== "";
+            element.buttonText1 || element.buttonText2 !== undefined &&
+            element.buttonText1 || element.buttonText2!== null &&
+            element.buttonText1 || element.buttonText2 !== "";
           return (
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
               dateClassName="date"
-              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-              // icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              iconStyle={isRedIcon ? redIconStyles : orangeIconStyles}
+              icon={element.icon}
+              iconClassName="keyboard"
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
               </h3>
               <h5 className="vertical-timeline-element-subtitle">
-                {element.location}
+                {element.catagory}
               </h5>
               <p id="description">{element.description}</p>
-              {showButton && (
-                <a
-                  className={
-                    'button ${isWorkIcon ? "workButton" : "schoolButton"}'
-                  }
-                  href="/"
-                >
-                  {element.buttonText}
-                </a>
-              )}
+              <div>
+                {showButton && (
+                  <a
+                    className="buttonText1"
+                    href={element.buttonLink1}
+                    target="_blank"
+                  >
+                    {element.buttonText1}
+                  </a>
+                )}
+                {showButton && (
+                  <a
+                    className="buttonText2"
+                    href={element.buttonLink2}
+                    target="_blank"
+                  >
+                    {element.buttonText2}
+                  </a>
+                )}
+              </div>
             </VerticalTimelineElement>
           );
         })}
