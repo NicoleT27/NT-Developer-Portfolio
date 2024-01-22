@@ -62,7 +62,7 @@ let orangeIconStyles = { background: "#F48C06" };
           );
         })}
       </VerticalTimeline>
-    // </div>
+    </div>
   );
 }
 export default Projects;

@@ -245,7 +245,7 @@ p {
 }
 
 
-.card {
+/* .card {
   font-family: montserrat;
   position: absolute;
   background-color: #F8F8F8;
@@ -263,7 +263,7 @@ p {
     0 16px 16px rgba(27, 61, 4, 0.179),
     0 32px 32px rgba(20, 94, 1, 0.146),
     0 64px 64px rgba(27, 61, 4, 0.177);
-}
+} */
 .note::after {
   content: '';
   width: 20%;

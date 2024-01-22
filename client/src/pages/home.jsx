@@ -14,7 +14,7 @@ function home() {
         </div>
         <div className="navbar">
           <ScrollLink to="bg" className="link" smooth={true} duration={500}>
-            About
+            About Me
           </ScrollLink>
           <ScrollLink
             to="projects"
@@ -24,6 +24,15 @@ function home() {
           >
             {" "}
             Projects
+          </ScrollLink>
+          <ScrollLink
+            to="interests"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
+            {" "}
+            Interests
           </ScrollLink>
           <ScrollLink to="" className="link" smooth={true} duration={500}>
             {" "}

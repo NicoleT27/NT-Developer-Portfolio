@@ -11,7 +11,7 @@ let timelineElements = [
     buttonText2: "View source code",
     buttonLink2: "https://github.com/NicoleT27/Playful-Pixels-",
     date: "December 2023",
-    iconColor: "red",
+    iconColor: "orange",
     icon: "🕹️",
   },
   {
@@ -25,7 +25,7 @@ let timelineElements = [
     buttonText2: "View source code",
     buttonLink2: "https://github.com/NicoleT27/YourSpace",
     date: "October 2023",
-    iconColor: "orange",
+    iconColor: "red",
     icon: "💻",
   },
   {
@@ -39,7 +39,7 @@ let timelineElements = [
     buttonText2: "View source code",
     buttonLink2: "https://github.com/NicoleT27/Travel-Itinerary",
     date: "August 2023",
-    iconColor: "red",
+    iconColor: "orange",
     icon: "🌍",
   },
   {
@@ -53,7 +53,7 @@ let timelineElements = [
     buttonText2: "View source code",
     buttonLink2: "https://github.com/NicoleT27/5-day-weather-forecast",
     date: "August 2023",
-    iconColor: "orange",
+    iconColor: "red",
     icon: "⛅",
   },
   // {
