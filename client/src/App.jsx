@@ -5,6 +5,7 @@ import About from "./pages/about.jsx";
 import Projects from "./pages/projects.jsx";
 import Contact from "./pages/contact.jsx";
 import Interests from "./pages/interests.jsx";
+import Testimonial from "./pages/testimonial.jsx";
 
 
 
@@ -14,6 +15,7 @@ return (
     <Home />
     <About />
     <Projects />
+    <Testimonial />
     <Interests />
     <Contact />
   </BrowserRouter>

@@ -1,0 +1,27 @@
+.test-title{
+font-size: 4em;
+text-align: center;
+color: #DC2F02 ;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+.quote,.name,.from{
+    text-align: center;
+}
+.quote{
+font-size: 25px;
+width: 900px; 
+height: 350px;
+margin-left:150px;
+color: white;
+}
+.name{
+padding-bottom: 15px;
+font-size: 20px;
+color: white;
+}
+.from{
+height: 200px;
+font-size: 20px;
+color: gray;
+}
