@@ -22,20 +22,22 @@ function home() {
             smooth={true}
             duration={500}
           >
-            {" "}
             Projects
           </ScrollLink>
           <ScrollLink
-            to="interests"
+            to="interest-title"
             className="link"
             smooth={true}
             duration={500}
           >
-            {" "}
             Interests
           </ScrollLink>
-          <ScrollLink to="" className="link" smooth={true} duration={500}>
-            {" "}
+          <ScrollLink
+            to="contact-title"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
             Contact
           </ScrollLink>
 
