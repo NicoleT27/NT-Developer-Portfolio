@@ -7,8 +7,10 @@ function Interests() {
     <div>
       <div className="interest-title">Languages/Interests</div>
       <div className="languages">
-      <div className="language1">Spanish</div>
-      <div className="language2">English</div>
+        <div className="language1">Spanish</div>
+        <span>Native</span>
+        <div className="language2">English</div>
+        <span>Native</span>
       </div>
       <div id="flipcards">
         <div className="card-container">
