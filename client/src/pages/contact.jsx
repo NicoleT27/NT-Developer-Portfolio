@@ -1,7 +1,8 @@
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
-import { FaRegAddressCard } from "react-icons/fa6";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import "./contact.css";
 
 function Contact() {
@@ -44,19 +45,27 @@ function Contact() {
         <div className="icons">
           <FaPhoneVolume />
           <TfiEmail />
-          <FaRegAddressCard />
+          <BsLinkedin />
+          <FaGithub />
         </div>
         <div className="phone-titles">
           <div>Call Me!</div>
-          <div>407-616-4437</div>
+          <a href="tel:+1(407)-616-4437">407-616-4437</a>
         </div>
         <div className="email-titles">
           <div>Write to Me!</div>
-          <div>nicolejoan9@yahoo.com</div>
+          <a href="mailto:nicolejoan9@yahoo.com">nicolejoan9@yahoo.com</a>
         </div>
         <div className="contact-titles">
-          <div>Something</div>
-          <div>Something else</div>
+          <div>Lets Connect!</div>
+          <a href="https://www.linkedin.com/in/nicolet27/">
+            https://www.linkedin.com/in/nicolet27/
+          </a>
+          <div className="contact2-titles">
+            <a href="https://github.com/NicoleT27">
+              https://github.com/NicoleT
+            </a>
+          </div>
         </div>
       </div>
     </footer>

@@ -27,6 +27,14 @@ function home() {
             Projects
           </ScrollLink>
           <ScrollLink
+            to="test-title"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
+            Testimonials
+          </ScrollLink>
+          <ScrollLink
             to="interest-title"
             className="link"
             smooth={true}
@@ -42,12 +50,18 @@ function home() {
           >
             Contact
           </ScrollLink>
-          <a href="https://www.linkedin.com/in/nicolet27/">
+          <a
+            href={"../../src/assets/Full-Stack-Web-Development-Resume.pdf"}
+            download
+          >
+            Resume
+          </a>
+          {/* <a href="https://www.linkedin.com/in/nicolet27/">
             <BsLinkedin />
           </a>
           <a href="https://github.com/NicoleT27">
             <FaGithub />
-          </a>
+          </a> */}
         </div>
       </header>
       <div className="me-container">
