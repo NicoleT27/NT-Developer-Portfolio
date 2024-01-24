@@ -3,31 +3,32 @@ font-size: 4em;
 text-align: center;
 color: #DC2F02 ;
 padding-top: 1em;
-padding-bottom: 40px;
+padding-bottom: 10px;
 }
 
-.alejandra{
-    border-radius: 50%;
-    width: 15%;
-    margin-left: 540px;
-}
+.container{
+    text-align: center;
 
+}
+.alejandra,.madeleine,.matthieu {
+border-radius: 50%;
+width: 15%;
+
+}
 .quotes{
-text-align: center;
-font-size: 30px;
+font-size: 25px;
 padding-bottom: 20px;
 color: gray;
-}
+} 
 
-.quote,.name,.from{
-    text-align: center;
+.quotes,.name,.from{
+text-align: center;
 }
 
 .quote{
-font-size: 25px;
-width: 900px; 
-height: 350px;
-margin-left:150px;
+font-size: 22px;
+width: 1040px; 
+height: 250px;
 color: white;
 margin-top: 30px;
 }
@@ -37,7 +38,7 @@ font-size: 20px;
 color: white;
 }
 .from{
-height: 200px;
+height: 20px;
 font-size: 20px;
 color: gray;
-}
+} 
