@@ -3,6 +3,8 @@ import { Link as ScrollLink } from "react-scroll";
 import "./home.css";
 import "../../src/App.css";
 import me from "../assets/images/profile-pic4.png";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 function home() {
   return (
@@ -40,12 +42,11 @@ function home() {
           >
             Contact
           </ScrollLink>
-
           <a href="https://www.linkedin.com/in/nicolet27/">
-            <iconify-icon icon="cib:linkedin"></iconify-icon>
+            <BsLinkedin />
           </a>
           <a href="https://github.com/NicoleT27">
-            <iconify-icon icon="cib:github"></iconify-icon>
+            <FaGithub />
           </a>
         </div>
       </header>

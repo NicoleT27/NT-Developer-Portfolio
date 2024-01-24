@@ -3,17 +3,34 @@ font-size: 4em;
 text-align: center;
 color: #DC2F02 ;
 padding-top: 1em;
-padding-bottom: 1em;
+padding-bottom: 40px;
 }
+
+.alejandra{
+    border-radius: 50%;
+    width: 15%;
+    margin-left: 540px;
+}
+
+
+/* .quote::before {
+  content: open-quote;
+
+}
+.quote::after {
+  content: close-quote;
+} */
 .quote,.name,.from{
     text-align: center;
 }
+
 .quote{
 font-size: 25px;
 width: 900px; 
 height: 350px;
 margin-left:150px;
 color: white;
+margin-top: 30px;
 }
 .name{
 padding-bottom: 15px;
