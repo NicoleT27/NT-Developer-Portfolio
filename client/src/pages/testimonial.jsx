@@ -1,14 +1,29 @@
 import React from "react";
-import "./testimonial.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 import alejandra from "../assets/images/alejandra.jpg";
 import madeleine from "../assets/images/madeleine.jpg";
 import matthieu from "../assets/images/matthieu.jpg";
+import { FaQuoteLeft } from "react-icons/fa";
+import "./testimonial.css";
 
 
  function Testimonial() {
    return (
      <div>
-       <div className="test-title">Testimonials</div>
+       <Swiper
+         spaceBetween={50}
+         slidesPerView={3}
+         onSlideChange={() => console.log("slide change")}
+         onSwiper={(swiper) => console.log(swiper)}
+       >
+         <SwiperSlide>Slide 1</SwiperSlide>
+         <SwiperSlide>Slide 2</SwiperSlide>
+         <SwiperSlide>Slide 3</SwiperSlide>
+         <SwiperSlide>Slide 4</SwiperSlide>
+         ...
+       </Swiper>
+       {/* <div className="test-title">Testimonials</div>
        <div className="media-scroller">
          <img className="alejandra" src={alejandra}></img>
          <div className="quote">
@@ -25,11 +40,13 @@ import matthieu from "../assets/images/matthieu.jpg";
            eye for detail and perfectionism that will help her quickly deliver
            incredible full-stack projects.
          </div>
+         <div className="quotes">
+         <FaQuoteLeft /></div>
          <div className="name">Alejandra Bernabel</div>
          <div className="from">
            Software Engineer/Former UCF Bootcamp Colleague
-         </div>
-         {/*  <img src={madeleine}></img>
+         </div> */}
+       {/*  <img src={madeleine}></img>
          <div className="quote">
        I had the pleasure of working with Nicole in UCF Full Stack Bootcamp, and
        I highly recommend her as a talented coder. Nicole consistently impressed
@@ -59,12 +76,10 @@ import matthieu from "../assets/images/matthieu.jpg";
        website.</div>
          <div className="name">Matthieu Delac</div>
        <div className="from">SheCodes Founder & CEO</div> */}
-       </div>
      </div>
    );
- }
+  }
 
-export default Testimonial; 
-
+ export default Testimonial; 
 
  

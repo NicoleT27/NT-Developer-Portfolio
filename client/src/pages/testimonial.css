@@ -12,14 +12,13 @@ padding-bottom: 40px;
     margin-left: 540px;
 }
 
-
-/* .quote::before {
-  content: open-quote;
-
+.quotes{
+text-align: center;
+font-size: 30px;
+padding-bottom: 20px;
+color: gray;
 }
-.quote::after {
-  content: close-quote;
-} */
+
 .quote,.name,.from{
     text-align: center;
 }
