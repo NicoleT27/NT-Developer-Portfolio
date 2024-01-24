@@ -1,4 +1,10 @@
 import React from "react";
+import travel from "../assets/images/travel.jpg";
+import yoga from "../assets/images/yoga.png";
+import fitness from "../assets/images/fitness.jpg";
+import volunteering from "../assets/images/volunteering.jpg";
+import singing from "../assets/images/singing.jpg";
+import thrifting from "../assets/images/thrifting.png";
 import "./interests.css"
 
 
@@ -15,7 +21,9 @@ function Interests() {
       <div id="flipcards">
         <div className="card-container">
           <div className="card">
-            <h2 className="flip-card-front">Traveling</h2>
+            <h2 className="flip-card-front">
+              <img src={travel} className="flip-card-front"></img>
+            </h2>
             <div className="flip-card-back">
               {" "}
               3 Countries & 20 States So far
@@ -24,7 +32,9 @@ function Interests() {
         </div>
         <div className="card-container">
           <div className="card">
-            <h2 className="flip-card-front">Yoga</h2>
+            <h2 className="flip-card-front">
+              <img src={yoga} className="flip-card-front"></img>
+            </h2>
             <div className="flip-card-back">
               Meditation, Hot Yoga & Savasana
             </div>
@@ -33,7 +43,9 @@ function Interests() {
 
         <div className="card-container">
           <div className="card">
-            <h2 className="flip-card-front">Fitness</h2>
+            <h2 className="flip-card-front">
+              <img src={fitness} className="flip-card-front"></img>
+            </h2>
             <div className="flip-card-back">
               Cycling,Swimming,& Weightlifting
             </div>
@@ -42,7 +54,9 @@ function Interests() {
 
         <div className="card-container2">
           <div className="card">
-            <h2 className="flip-card-front">Volunteering</h2>
+            <h2 className="flip-card-front">
+              <img src={volunteering} className="flip-card-front"></img>
+            </h2>
             <div className="flip-card-back">
               Feeding the homeless, Ronald Mcdonald house, Beach Cleanups
             </div>
@@ -51,7 +65,10 @@ function Interests() {
 
         <div className="card-container2">
           <div className="card">
-            <h2 className="flip-card-front">Singing</h2>
+            <h2 className="flip-card-front">
+              {" "}
+              <img src={singing} className="flip-card-front"></img>
+            </h2>
             <div className="flip-card-back">
               A Fl All State Singer(2 years),FL All County singer(3 years) Will
               never miss a karaoke🎤
@@ -61,7 +78,10 @@ function Interests() {
 
         <div className="card-container2">
           <div className="card">
-            <h2 className="flip-card-front">Thrifting</h2>
+            <h2 className="flip-card-front">
+              {" "}
+              <img src={thrifting} className="flip-card-front"></img>
+            </h2>
             <div className="flip-card-back">
               Antique stores, Goodwill & Platos Closet
             </div>
