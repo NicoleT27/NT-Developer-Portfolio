@@ -119,6 +119,7 @@ margin-right: 30px;
 transform:translateY(-10px);
 background-color: #DC2F02;
 color: white;
+cursor: pointer;
 }
 
 .title{

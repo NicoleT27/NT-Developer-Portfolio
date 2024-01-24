@@ -78,7 +78,16 @@ function home() {
                 <h6>Github</h6>
               </a>
             </div>
-            <button className="contact-me">Contact Me</button>
+            <button className="contact-me">
+              <ScrollLink
+                to="contact-title"
+                className="link"
+                smooth={true}
+                duration={500}
+              >
+                Contact Me
+              </ScrollLink>
+            </button>
           </div>
         </div>
         <img className="me" src={me} alt="Image of Nicole" />
