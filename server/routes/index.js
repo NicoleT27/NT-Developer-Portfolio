@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 // const apiRouter = require("./api");
 const path = require("path");
-const mimeTypes = require("mime-types");
 // const nodemailer = require("nodemailer");
 
 // //API routes
@@ -41,14 +40,8 @@ const mimeTypes = require("mime-types");
 
 //connects server to our client folder
 // router.use(express.static(path.join(__dirname, "../../client/dist")));
-router.use(
-  express.static(path.join(__dirname, "../../client"), {
-    setHeaders: (res, filePath) => {
-      const mimeType = mimeTypes.lookup(filePath);
-      res.setHeader("Content-Type", mimeType);
-    },
-  })
-);
+router.use(express.static(path.join(__dirname, "../../client")));
+
 //all other routes to be handled inside index.html
 router.get("/*", (req, res) => {
   res.sendFile(
