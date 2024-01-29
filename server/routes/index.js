@@ -39,8 +39,8 @@ const path = require("path");
 
 
 //connects server to our client folder
-// router.use(express.static(path.join(__dirname, "../../client/dist")));
-router.use(express.static(path.join(__dirname, "../../client")));
+router.use(express.static(path.join(__dirname, "../../client/dist")));
+
 
 //all other routes to be handled inside index.html
 router.get("/*", (req, res) => {
