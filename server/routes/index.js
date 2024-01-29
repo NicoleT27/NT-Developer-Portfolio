@@ -40,8 +40,14 @@ const path = require("path");
 
 //connects server to our client folder
 // router.use(express.static(path.join(__dirname, "../../client/dist")));
-router.use(express.static(path.join(__dirname, "../../client")));
-
+router.use(
+  express.static(path.join(__dirname, "../../client"), {
+    setHeaders: (res, filePath) => {
+      const mimeType = mime.getType(filePath);
+      res.setHeader("Content-Type", mimeType);
+    },
+  })
+);
 //all other routes to be handled inside index.html
 router.get("/*", (req, res) => {
   res.sendFile(
