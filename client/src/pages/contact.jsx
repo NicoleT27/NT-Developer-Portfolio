@@ -6,30 +6,37 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import "./contact.css";
 
+
+
+const emailServiceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+const emailTemplateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+const emailUserId = import.meta.env.VITE_EMAIL_USER_ID;
+
+
 function Contact() {
 
-   const form = useRef();
+  const form = useRef();
 
-   const sendEmail = (e) => {
-     e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-     emailjs
-       .sendForm(
-         "service_tas0zqk",
-         "template_ybfyqyv",
-         form.current,
-         "38KJeL4mMOxDsz5Uv"
-       )
-       .then(
-         (result) => {
-           e.target.reset();
-           console.log(result.text);
-         },
-         (error) => {
-           console.log(error.text);
-         }
-       );
-   };
+    emailjs
+      .sendForm(
+        emailServiceId,
+        emailTemplateId,
+        form.current,
+        emailUserId
+      )
+      .then(
+        (result) => {
+          e.target.reset();
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <footer>

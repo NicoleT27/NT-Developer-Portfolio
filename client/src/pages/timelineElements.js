@@ -1,4 +1,4 @@
-import computer from "../assets/images/computer.svg";
+
 
 let timelineElements = [
   {
