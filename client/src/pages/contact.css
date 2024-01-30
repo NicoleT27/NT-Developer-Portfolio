@@ -11,13 +11,13 @@ form{
   margin-left: 40px;
   width:50%;
 }
-#phone,#subject{
+#user_number,#subject{
 padding: 20px;
 border-radius: 10px;
 margin-top: 20px;
 font-size: 15px;
 }
-#name{
+#user_name{
 padding: 20px;
 border-radius: 10px;
 margin-top: 20px;
@@ -25,7 +25,7 @@ width: 40%;
 transform: translateY(102%);
 font-size: 15px;
 }
-#email{
+#user_email{
 padding: 20px;
 border-radius: 10px;
 width: 40%;
