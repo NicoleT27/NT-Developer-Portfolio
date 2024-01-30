@@ -7,9 +7,10 @@
 form{
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   margin-left: 40px;
   width:50%;
+  margin-bottom: -60px;
 }
 #user_number,#subject{
 padding: 20px;
@@ -46,6 +47,7 @@ font-size: 15px;
   width: 25%;
   font-size: 15px;
   color: black;
+  margin-bottom: 30px;
 }
 
 #submit:hover{

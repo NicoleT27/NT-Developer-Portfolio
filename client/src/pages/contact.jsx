@@ -1,16 +1,17 @@
-import React, { useRef } from "react";
+import React, {useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import "./contact.css";
+import "./contact";
 
 
 
-const emailServiceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
-const emailTemplateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
-const emailUserId = import.meta.env.VITE_EMAIL_USER_ID;
+// const emailServiceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+// const emailTemplateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+// const emailUserId = import.meta.env.VITE_EMAIL_USER_ID;
 
 
 function Contact() {
@@ -30,12 +31,26 @@ function Contact() {
       .then(
         (result) => {
           e.target.reset();
-          console.log(result.text);
+         const responseMessage = document.getElementById("responseMessage");
+    const newMessage = "Message has been sent!";
+    responseMessage.textContent = newMessage;
+    responseMessage.style.display = "block";
+
+      setTimeout(() => {
+        responseMessage.style.display = "none";
+      }, 4000);
         },
         (error) => {
-          console.log(error.text);
+          const responseMessage = document.getElementById("responseMessage");
+          const newMessage = "Unable to send Message, Please Try Again!";
+          responseMessage.textContent = newMessage;
+          responseMessage.style.display = "block";
+
+          setTimeout(() => {
+            responseMessage.style.display = "none";
+          }, 4000);
         }
-      );
+      );  
   };
 
   return (
@@ -75,9 +90,9 @@ function Contact() {
           placeholder="Your message"
           required
         ></textarea>
-        <input type="submit" id="submit" value="Send" />
+        <input type="submit" id="submit" name="submit" value="Submit" />
       </form>
-      <div id="responseMessage">Message has been sent </div>
+      <div id="responseMessage"></div>
       <div className="contact-details">
         <div className="contact-intro">
           Dont be Shy!
