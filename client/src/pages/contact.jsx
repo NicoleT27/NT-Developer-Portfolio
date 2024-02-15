@@ -101,10 +101,18 @@ function Contact() {
           oppurtunities.
         </div>
         <div className="icons">
-          <FaPhoneVolume />
-          <TfiEmail />
-          <BsLinkedin />
-          <FaGithub />
+          <a href="tel:+14076164437">
+            <FaPhoneVolume />
+          </a>
+          <a href="mailto:nicolejoan9@yahoo.com">
+            <TfiEmail />
+          </a>
+          <a href="https://www.linkedin.com/in/nicolet27/">
+            <BsLinkedin />
+          </a>
+          <a href="https://github.com/NicoleT27">
+            <FaGithub />
+          </a>
         </div>
         <div className="phone-titles">
           <div>Call Me!</div>

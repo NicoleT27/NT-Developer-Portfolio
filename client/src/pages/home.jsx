@@ -58,16 +58,18 @@ function home() {
         </div>
       </header>
       <div className="me-container">
-
         <div className="container-left">
           <div className="header-name">
             <h1>Nicole Torres</h1>
             <div className="container-links">
-              <a href="https://www.linkedin.com/in/nicolet27/">
+              <a
+                href="https://www.linkedin.com/in/nicolet27/"
+                className="home-link"
+              >
                 <h6>Linkedin</h6>
               </a>
               <h6 className="space">|</h6>
-              <a href="https://github.com/NicoleT27">
+              <a href="https://github.com/NicoleT27" className="home-link">
                 <h6>Github</h6>
               </a>
             </div>

@@ -226,8 +226,8 @@ transform:translateY(-10px);
 background-color: #DC2F02;
 color: white;
 }
-a:visited {
-    color: aliceblue;
+.home-link:visited {
+    color: white;
 }
 
 

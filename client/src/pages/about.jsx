@@ -14,7 +14,7 @@ import git from "../assets/images/git.png";
   
   function About() {
   return (
-    <div>
+    <div className="about">
       <h3 className="bg">Experience</h3>
       <p className="overview">Overview</p>
       <p className="About-me">

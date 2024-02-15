@@ -51,7 +51,7 @@ transform: translateX(330%);
 	height:40%;
 	transition:transform 5s;
 	transform-style:preserve-3d;
-  background-color: gray;
+  background-color: rgb(181, 177, 177);
   border: 3px solid #DC2F02;
   border-radius: 5%;
   transition: transform 1500ms;
@@ -80,7 +80,7 @@ transform: translateX(330%);
 
 .flip-card-back {
 	transform:rotateY(180deg);
-  background-color: gray;
+  background-color: rgb(181, 177, 177);
   top: 0;
   left: 0;
   right: 0;
