@@ -115,11 +115,11 @@ function Contact() {
           <a href="mailto:nicolejoan9@yahoo.com">nicolejoan9@yahoo.com</a>
         </div>
         <div className="contact-titles">
-          <div>Lets Connect!</div>
           <a href="https://www.linkedin.com/in/nicolet27/">
             https://www.linkedin.com/in/nicolet27/
           </a>
           <div className="contact2-titles">
+            <div>Lets Connect!</div>
             <a href="https://github.com/NicoleT27">
               https://github.com/NicoleT
             </a>
