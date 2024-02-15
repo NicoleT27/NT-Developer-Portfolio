@@ -53,3 +53,15 @@ margin-right: 30px;
 font-size: 40px;
 text-align: center;
 }
+
+@media screen and (min-width: 430px) and (max-width: 1024px) {
+.project-title{
+  font-size: 4em;
+margin-top: 10px;
+}
+.buttonText1, .buttonText2{
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+}
+}

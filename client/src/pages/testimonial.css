@@ -1,5 +1,6 @@
 .test-title{
 font-size: 4em;
+font-weight: bold;
 text-align: center;
 color: #DC2F02 ;
 padding-top: 1em;
@@ -7,7 +8,7 @@ padding-bottom: 10px;
 }
 
 .container{
-    text-align: center;
+text-align: center;
 
 }
 .alejandra,.madeleine,.matthieu {
@@ -41,4 +42,26 @@ color: white;
 height: 20px;
 font-size: 20px;
 color: gray;
-} 
+}
+
+@media screen and (min-width: 430px) and (max-width: 1024px) {
+
+.quote{
+color: black;
+width:70%;
+text-align: left;
+margin: 0 auto;
+margin-right: 80px;
+padding-bottom: 500px;
+  }
+  .alejandra,.madeleine,.matthieu{
+   width: 40%;
+   margin: 0 auto;
+   margin-right: 80px;
+   margin-bottom: 20px;
+  }
+  .from, .quotes{
+    margin-right: 60px;
+  }
+
+}

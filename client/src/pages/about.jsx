@@ -1,4 +1,5 @@
 import React from "react";
+import "../../src/pages/about.css";
 import HTML from "../assets/images/html.png";
 import CSS from "../assets/images/css.png";
 import ReactImg from "../assets/images/reactjs.png";

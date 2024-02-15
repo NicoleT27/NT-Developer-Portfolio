@@ -11,7 +11,7 @@ import "./interests.css"
 function Interests() {
   return (
     <div>
-      <div className="interest-title">Languages/Interests</div>
+      <div className="interest-title">Languages & Interests</div>
       <div className="languages">
         <div className="language1">Spanish</div>
         <span>Native</span>
@@ -25,7 +25,6 @@ function Interests() {
               <img src={travel} className="flip-card-front"></img>
             </h2>
             <div className="flip-card-back">
-              {" "}
               3 Countries & 20 States So far
             </div>
           </div>

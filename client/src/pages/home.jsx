@@ -1,10 +1,9 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import "./home.css";
-import "../../src/App.css";
+import "../../src/pages/home.css";
 import me from "../assets/images/profile-pic4.png";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+
 
 function home() {
   return (
@@ -56,16 +55,10 @@ function home() {
           >
             Resume
           </a>
-          {/* <a href="https://www.linkedin.com/in/nicolet27/">
-            <BsLinkedin />
-          </a>
-          <a href="https://github.com/NicoleT27">
-            <FaGithub />
-          </a> */}
         </div>
       </header>
       <div className="me-container">
-        {" "}
+
         <div className="container-left">
           <div className="header-name">
             <h1>Nicole Torres</h1>
@@ -116,36 +109,3 @@ function home() {
 
 export default home;
 
-{/* 
-  // extra word sliding page code 
-  //  <div className="sliders">
-  //         <div className="bg-text-container">
-  //           <div className="animate-text">
-  //             <span className="synonym">Web&nbsp;</span>
-  //             <span className="synonym">Developer&nbsp;</span>
-  //           </div>
-  //           <div className="animate-text left">
-  //             <span className="synonym">Software&nbsp;</span>
-  //             <span className="synonym">Engineer&nbsp;</span>
-  //           </div>
-  //         </div>
-  //       </div>
-  //       <div className="card">
-  //         <h1>
-  //           {" "}
-  //           I am a
-  //           <div className="scroller">
-  //             <span>
-  //               Web Developer
-  //               <br />
-  //               Software Engineer
-  //               <br />
-  //               Singer
-  //               <br />
-  //               Travel Enthusiast
-  //             </span>
-  //           </div>
-  //         </h1>
-  //       </div>
-  //       <img className="leafBg" src={leafBg} alt="jpg of leaves" />
-} */}
