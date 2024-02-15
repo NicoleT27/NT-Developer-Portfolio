@@ -116,7 +116,7 @@ color: gray;
    font-size: 40px; 
 }
 
-@media screen and (min-width: 430px) and (max-width: 1024px) {
+@media screen and (min-width: 390px) and (max-width: 1024px) {
   .About-me,.overview,.bg{
     text-align: center;
     margin: 0 auto;

@@ -231,7 +231,7 @@ a:visited {
 }
 
 
-@media screen and (min-width: 430px) and (max-width: 1024px) {
+@media screen and (min-width: 390px) and (max-width: 1024px) {
 .me-container{
 transform:translateY(-310px);
 margin: 0 auto;

@@ -30,13 +30,13 @@ text-align: center;
 font-size: 22px;
 width: 1040px; 
 height: 250px;
-color: white;
+color: black;
 margin-top: 30px;
 }
 .name{
 padding-bottom: 15px;
 font-size: 20px;
-color: white;
+color: black;
 }
 .from{
 height: 20px;
@@ -44,7 +44,7 @@ font-size: 20px;
 color: gray;
 }
 
-@media screen and (min-width: 430px) and (max-width: 1024px) {
+@media screen and (min-width: 390px) and (max-width: 1024px) {
 
 .quote{
 color: black;
@@ -65,3 +65,5 @@ padding-bottom: 500px;
   }
 
 }
+
+
