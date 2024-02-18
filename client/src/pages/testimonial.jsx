@@ -16,7 +16,7 @@ import "./testimonial.css";
 
  function Testimonial() {
    return (
-     <div>
+     <div className="testimonial">
        <div className="test-title">Testimonials</div>
        <Swiper
          modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -27,6 +27,7 @@ import "./testimonial.css";
          <SwiperSlide>
            <div className="container">
              <img className="alejandra" src={alejandra}></img>
+             <div className="blob"></div>
              <div className="quote">
                Nicole and I have worked on three full-stack applications
                together. Among these were a travel itinerary, a Myspace-based
@@ -54,6 +55,7 @@ import "./testimonial.css";
          <SwiperSlide>
            <div className="container">
              <img className="matthieu" src={matthieu}></img>
+             <div className="blob"></div>
              <div className="quote">
                Nicole did a great job in all 4 SheCodes coding workshops
                (Basics, Plus, React and Responsive). She gained advanced coding
@@ -75,6 +77,7 @@ import "./testimonial.css";
          <SwiperSlide>
            <div className="container">
              <img className="madeleine" src={madeleine}></img>
+             <div className="blob"></div>
              <div className="quote">
                I had the pleasure of working with Nicole in UCF Full Stack
                Bootcamp, and I highly recommend her as a talented coder. Nicole

@@ -10,7 +10,7 @@ import "./interests.css"
 
 function Interests() {
   return (
-    <div>
+    <div className="interests">
       <div className="interest-title">Languages & Interests</div>
       <div className="languages">
         <div className="language1">Spanish</div>

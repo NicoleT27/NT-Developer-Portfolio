@@ -9,9 +9,9 @@ import "./contact";
 
 
 
-// const emailServiceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
-// const emailTemplateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
-// const emailUserId = import.meta.env.VITE_EMAIL_USER_ID;
+const emailServiceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+const emailTemplateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+const emailUserId = import.meta.env.VITE_EMAIL_USER_ID;
 
 
 function Contact() {
@@ -54,7 +54,7 @@ function Contact() {
   };
 
   return (
-    <footer>
+    <footer className="contact">
       <div className="contact-title">Contact Me</div>
       <form ref={form} onSubmit={sendEmail} id="contactForm">
         <input
@@ -87,7 +87,7 @@ function Contact() {
         <textarea
           id="message"
           name="message"
-          placeholder="Your message"
+          placeholder="Your Message"
           required
         ></textarea>
         <input type="submit" id="submit" name="submit" value="Submit" />

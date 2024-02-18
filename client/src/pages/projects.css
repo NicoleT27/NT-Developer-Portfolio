@@ -1,67 +1,81 @@
+body {
+  margin: 0;
+}
+
+.projects {
+  margin-top: 57px;
+  background-color: #052646;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .project-title {
   font-size: 7em;
   text-align: center;
-  color: #DC2F02 ;
-  padding-top:1em;
+  color: #15CDCD;
+  padding-top: 1em;
   padding-bottom: -200px;
-} 
-
-h3{
-    font-size: 30px;
 }
 
-.vertical-timeline-element-content{
-   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+h3 {
+  font-size: 30px;
+  color:  #15CDCD;;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
   padding: 2em 3em !important;
 }
-.vertical-timeline-element-subtitle{
-    padding-top: 15px;
-    font-size: 18px;
+.vertical-timeline-element-subtitle {
+  padding-top: 15px;
+  font-size: 18px;
 }
-#description{
-   padding-top: -5px;  
-   padding-bottom: 20px;
+#description {
+  padding-top: -5px;
+  padding-bottom: 20px;
 }
-.date{
-    color: white;
+.date {
+  color: rgb(181, 230, 236);
 }
-.button{
-  text-decoration: none;
-  background-color: #DC2F02;
-  border-radius: 10px;
-  padding: 8px;
+
+.buttonText1:hover,
+.buttonText2:hover {
+  background-color: #0aabab;
 }
-.buttonText1:hover, .buttonText2:hover{
-  background-color: #dc8802;
+.buttonText1 {
+  background-color: #078282;
+  padding: 10px;
+  border-radius: 10px; 
+  font-weight: bold;
 }
-.buttonText1{
-  background-color: #DC2F02;
+.buttonText2 {
+  background-color: #078282;
   padding: 10px;
   border-radius: 10px;
+  justify-content: flex-end;
+  font-weight: bold;
 }
-.buttonText2{
-  background-color: #DC2F02;
-  padding: 10px;
-  border-radius: 10px;
-  justify-content:flex-end;
+.buttonText1,
+.buttonText2 {
+  margin-right: 30px;
 }
-.buttonText1,.buttonText2{
-margin-right: 30px;
-}
-.icon{
-font-size: 40px;
-text-align: center;
+.icon {
+  font-size: 40px;
+  text-align: center;
 }
 
 @media screen and (min-width: 390px) and (max-width: 1024px) {
-.project-title{
-  font-size: 4em;
-margin-top: 10px;
-}
-.buttonText1, .buttonText2{
-display: flex;
-flex-direction: column;
-margin-top: 10px;
-}
+  .project-title {
+    font-size: 4em;
+    margin-top: 10px;
+  }
+  .buttonText1,
+  .buttonText2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
 }

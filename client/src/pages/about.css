@@ -1,16 +1,23 @@
-/* .about{
-  margin-top: 57px;
-  background-color: antiquewhite;
-  height: 120vh;
+body {
+  margin: 0;
+}
 
-} */
+.about {
+  margin-top: 57px;
+  background-color:#0A5165;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
 
 .media-scroller-container {
   display: flex;
   gap: 20px;
   text-align: center;
   overflow-x: auto;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
   margin-top: 60px;
   margin-left: 50px;
   margin-right: 35px;
@@ -20,15 +27,15 @@
   min-width: 90px;
   max-height: 100px;
   padding: 40px;
-  border: 3px solid #dc2f02;
+  border: 3px solid #052646;
   border-radius: 5%;
   box-shadow: 4px 4px 4px #212529;
-  background: rgb(39, 41, 42);
+  /* background: #27292A; */
   background: linear-gradient(
     0deg,
-    rgba(39, 41, 42, 1) 24%,
-    rgba(60, 62, 64, 0.9193802521008403) 81%
-  );
+    #27292A 24%,
+    #3B3D3F 81% 
+   ); 
 }
 .media-scroller-container::-webkit-scrollbar {
   width: 0;
@@ -43,18 +50,19 @@
 
 .bg {
   margin-left: 30px;
-  padding-top: 90px;
-  color: gray;
+  padding-top: 60px;
+  color: #052646;
   margin-left: 50px;
 }
 .overview {
   color: white;
   font-size: 70px;
   margin-left: 50px;
+  margin-top: -20px;
 }
 
 .About-me {
-  color: gray;
+  color: rgb(181, 230, 236);
   margin-left: 50px;
   margin-top: 20px;
   text-wrap: wrap;
@@ -116,7 +124,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: #dc2f02;
+  background: #078282;
   z-index: -1;
   transition: transform 0.4s ease;
   width: 180%;

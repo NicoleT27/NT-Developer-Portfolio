@@ -9,8 +9,8 @@ import "react-vertical-timeline-component/style.min.css";
 
 
 function Projects() {
-let redIconStyles = { background: "#DC2F02" };
-let orangeIconStyles = { background: "#F48C06" };
+let redIconStyles = { background: "#02132F" };
+let orangeIconStyles = { background: "#02132F" };
 
   return (
     <div className="projects">

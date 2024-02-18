@@ -1,40 +1,67 @@
-.contact-title{
- font-size: 4em;
- font-weight: bold;
-  text-align: center;
-  color: #DC2F02 ;
-  padding-bottom: 20px;
+.contact {
+  background-color: #0d5a65;
+  position: relative;
+  left: 0;
+  right: 0;
+ bottom: 0;
 }
-form{
+
+.contact-title {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(181, 230, 236);
+  padding-top: 1em;
+}
+
+form {
   display: flex;
   flex-direction: column;
   padding-bottom: 70px;
   margin-left: 40px;
-  width:50%;
-  margin-bottom: -60px;
+  width: 50%;
 }
-#user_number,#subject{
-padding: 20px;
-border-radius: 10px;
-margin-top: 20px;
-font-size: 15px;
+
+#user_name::placeholder,
+#user_email::placeholder,
+#message::placeholder,
+#user_number::placeholder,
+#subject::placeholder
+ {
+  color: #083159; 
 }
-#user_name{
-padding: 20px;
-border-radius: 10px;
-margin-top: 20px;
-width: 40%;
-transform: translateY(102%);
-font-size: 15px;
+
+#user_name,
+#user_email,
+#message,
+#user_number,
+#subject {
+  color: #0A5165;
 }
-#user_email{
-padding: 20px;
-border-radius: 10px;
-width: 40%;
-transform: translateX(112%); 
-font-size: 15px;
+
+#user_number,
+#subject {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 15px;
 }
-#message{
+#user_name {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 40%;
+  transform: translateY(102%);
+  font-size: 15px;
+}
+#user_email {
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  transform: translateX(112%);
+  font-size: 15px;
+}
+#message {
   padding: 30px 0px 80px 20px;
   border-radius: 10px;
   margin-top: 20px;
@@ -42,84 +69,91 @@ font-size: 15px;
   font-size: 15px;
 }
 
+
+
 #submit{
   padding: 15px;
   border-radius: 10px;
   width: 25%;
   font-size: 15px;
-  color: black;
-  margin-bottom: 30px;
+  transition: all 0.3s;
+  background-color: #212529;
+  border:  solid #05f4f4;
+  color: white;
 }
-
 #submit:hover{
-  background-color: bisque;
-  cursor: pointer;
+transform:translateY(-10px);
+background-color: #078282;
+cursor: pointer;
 }
 
-.contact-details{
-margin-top: -605px;
-margin-left: 800px;
-font-size: 20px;
+.contact-details {
+  margin-top: -540px;
+  margin-left: 800px;
+  font-size: 20px;
 }
 
-
- .icons{
+.icons {
   display: flex;
   flex-direction: column;
   font-size: 40px;
-  margin-top: 30px;
-  color: black;
-  gap: 60px;
- }
- .phone-titles{
+  margin-top: 40px;
+  background-color:#212529;
+  border-radius: 5%;
+  padding: 20px;
+  gap: 40px;
+  margin-right: 10px;
+}
+.phone-titles {
   display: flex;
   flex-direction: column;
   font-size: 20px;
   margin-top: -350px;
-  color: black;
+  color: white;
   gap: 10px;
-  margin-left: 60px;
-  transform: translateY(10%); 
- }
- .email-titles{
+  margin-left: 80px;
+  transform: translateY(10%);
+}
+.email-titles {
   display: flex;
   flex-direction: column;
   font-size: 20px;
   margin-top: 50px;
-  color: black;
+  color: white;
   gap: 10px;
-  margin-left: 60px;
- }
- .contact-titles{
+  margin-left: 80px;
+}
+.contact-titles {
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  margin-top: 50px;
-  color: black;
+  margin-top: 40px;
+  color: white;
   gap: 10px;
-  margin-left: 60px;
- }
+  margin-left: 80px;
+}
 
- .contact2-titles{
+.contact2-titles {
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  margin-top: 50px;
-  color: black;
+  margin-top: 40px;
+  color: white;
   gap: 10px;
   margin-left: 5px;
- }
+  padding-bottom: 120px;
+}
 
- a{
-    color: black;
+a {
+  color: white;
 }
 a:visited {
-    color: black;
+  color: white;
 }
-.contact-intro{
-  color: black;
+.contact-intro {
+  color: white;
 }
- #responseMessage{
+#responseMessage {
   background-color: black;
   border-radius: 10px;
   color: white;
@@ -132,51 +166,55 @@ a:visited {
 }
 
 @media screen and (min-width: 390px) and (max-width: 1024px) {
- .contact-title{
-  margin-top: 40px;
-  margin-bottom: 20px;
- }
-  #responseMessage{
-margin-top: 150px;
-width: 285px;
-padding: 20px;
- }
+  .contact-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #responseMessage {
+    margin-top: 150px;
+    width: 285px;
+    padding: 20px;
+  }
 
- .contact-details{
-display: flex;
-width: 100%;
- }
+  .contact-details {
+    display: flex;
+    width: 100%;
+  }
 
-.contact-intro{
- transform: translateX(-650px);
-margin-top: 90px; 
-margin-left: -110px;
-overflow-wrap: break-word;
-width: 90%;
-text-align: left;
- }
- .phone-titles, .email-titles,.contact2-titles{
- display: none;
- }
- .icons{
-display:flex;
-flex-direction: row;
-transform: translateY(600px);
-margin-left: -1020px;  
-margin-top: 110px;
- }
-  #user_name, #user_email{
-  width: 50%;
- }
-  #user_number, #subject, #message{
-  width: 130%;
+  .contact-intro {
+    transform: translateX(-650px);
+    margin-top: 90px;
+    margin-left: -110px;
+    overflow-wrap: break-word;
+    width: 90%;
+    text-align: left;
+  }
+  .phone-titles,
+  .email-titles,
+  .contact2-titles {
+    display: none;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(600px);
+    margin-left: -1020px;
+    margin-top: 110px;
+  }
+  #user_name,
+  #user_email {
+    width: 50%;
+  }
+  #user_number,
+  #subject,
+  #message {
+    width: 130%;
+  }
+  #message {
+    width: 140%;
+  }
 
- }
-  #message{
-  width: 140%;
- }
- 
-  #submit{
+  #submit {
     width: 50%;
     margin-bottom: -130px;
   }

@@ -1,69 +1,96 @@
-.test-title{
-font-size: 4vw;
-font-weight: bold;
-text-align: center;
-color: #DC2F02 ;
-padding-top: 1em;
-padding-bottom: 10px;
+body {
+  margin: 0;
 }
 
-.container{
-text-align: center;
-
-}
-.alejandra,.madeleine,.matthieu {
-border-radius: 50%;
-width: 15%;
-
-}
-.quotes{
-font-size: 25px;
-padding-bottom: 20px;
-color: gray;
-} 
-
-.quotes,.name,.from{
-text-align: center;
+.testimonial {
+  background-color: #083159;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.quote{
-font-size: 22px;
-width: 1040px; 
-height: 250px;
-color: black;
-margin-top: 30px;
+.test-title {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(181, 230, 236);
+  padding-top: 1em;
+  padding-bottom: 10px;
 }
-.name{
-padding-bottom: 15px;
-font-size: 20px;
-color: black;
+
+.container {
+  text-align: center;
+  position: relative;
 }
-.from{
-height: 20px;
-font-size: 20px;
-color: gray;
+.alejandra,
+.madeleine,
+.matthieu {
+  border-radius: 70% 30% 71% 29% / 41% 74% 26% 59%;
+  background-color: aquamarine;
+  width: 15%;
+}
+
+.blob {
+  position: absolute;
+  top: 30px;
+  left: 420px;
+  width: 20%;
+  height: 25%;
+  border-radius:70% 30% 71% 29% / 41% 74% 26% 59%;
+  background-color: #13cdcd;
+  z-index: -1;
+}
+
+.quotes {
+  font-size: 25px;
+  padding-bottom: 20px;
+  color: #96999c;
+}
+
+.quotes,
+.name,
+.from {
+  text-align: center;
+}
+
+.quote {
+  font-size: 22px;
+  width: 1040px;
+  height: 250px;
+  color: #b5e6ec;
+  margin-top: 30px;
+}
+.name {
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: rgb(11, 220, 244);
+}
+.from {
+  height: 20px;
+  font-size: 20px;
+  color: #96999c;
 }
 
 @media screen and (min-width: 390px) and (max-width: 1024px) {
-
-.quote{
-color: black;
-width:70%;
-text-align: left;
-margin: 0 auto;
-margin-right: 80px;
-padding-bottom: 500px;
+  .quote {
+    color: black;
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 80px;
+    padding-bottom: 500px;
   }
-  .alejandra,.madeleine,.matthieu{
-   width: 40%;
-   margin: 0 auto;
-   margin-right: 80px;
-   margin-bottom: 20px;
+  .alejandra,
+  .madeleine,
+  .matthieu {
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 80px;
+    margin-bottom: 20px;
   }
-  .from, .quotes{
+  .from,
+  .quotes {
     margin-right: 60px;
   }
-
 }
-
-
