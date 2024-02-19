@@ -70,7 +70,6 @@ body {
 @media screen and (min-width: 390px) and (max-width: 1024px) {
   .project-title {
     font-size: 4em;
-    margin-top: 10px;
   }
   .buttonText1,
   .buttonText2 {

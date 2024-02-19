@@ -143,9 +143,10 @@ body {
     text-align: center;
     margin: 0 auto;
     padding: 0 40px;
+    transform:translateY(40px);
   }
   .About-me {
-    margin-top: -30px;
+     transform:translateY(60px);
   }
   .bg {
     margin-top: -60px;
@@ -153,5 +154,6 @@ body {
   }
   .media-scroller-container {
     margin-left: 50px;
+    transform:translateY(20px);
   }
 }

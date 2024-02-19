@@ -168,9 +168,10 @@ a:visited {
 }
 
 @media screen and (min-width: 390px) and (max-width: 1024px) {
+ 
   .contact-title {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-bottom: 60px;
   }
   #responseMessage {
     margin-top: 150px;
@@ -181,11 +182,12 @@ a:visited {
   .contact-details {
     display: flex;
     width: 100%;
+    margin-top: 30px;
   }
 
   .contact-intro {
     transform: translateX(-650px);
-    margin-top: 90px;
+    margin-top: -680px;
     margin-left: -110px;
     overflow-wrap: break-word;
     width: 90%;
@@ -199,10 +201,12 @@ a:visited {
   .icons {
     display: flex;
     flex-direction: row;
-    transform: translateY(600px);
     margin-left: -1020px;
-    margin-top: 110px;
+    margin-top:-40px;
+    color: white;
+    background-color: transparent;
   }
+
   #user_name,
   #user_email {
     width: 50%;
@@ -218,6 +222,6 @@ a:visited {
 
   #submit {
     width: 50%;
-    margin-bottom: -130px;
+    /* margin-bottom: -130px; */
   }
 }
