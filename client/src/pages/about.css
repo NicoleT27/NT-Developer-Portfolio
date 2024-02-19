@@ -4,7 +4,8 @@ body {
 
 .about {
   margin-top: 57px;
-  background-color:#0A5165;
+  background-color:
+  #052646;
   position: relative;
   left: 0;
   right: 0;
@@ -27,15 +28,16 @@ body {
   min-width: 90px;
   max-height: 100px;
   padding: 40px;
-  border: 3px solid #052646;
+  border: 3px solid #000416;
   border-radius: 5%;
   box-shadow: 4px 4px 4px #212529;
-  /* background: #27292A; */
-  background: linear-gradient(
+  background: #27292A;
+/* background-color: #000416; */
+  /* background: linear-gradient(
     0deg,
     #27292A 24%,
     #3B3D3F 81% 
-   ); 
+   );  */
 }
 .media-scroller-container::-webkit-scrollbar {
   width: 0;
@@ -51,7 +53,7 @@ body {
 .bg {
   margin-left: 30px;
   padding-top: 60px;
-  color: #052646;
+  color: #0A5165;
   margin-left: 50px;
 }
 .overview {

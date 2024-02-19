@@ -4,7 +4,7 @@ body {
 
 .projects {
   margin-top: 57px;
-  background-color: #052646;
+  background-color: #000416;
   position: relative;
   left: 0;
   right: 0;
@@ -14,14 +14,14 @@ body {
 .project-title {
   font-size: 7em;
   text-align: center;
-  color: #15CDCD;
+  color: #15cdcd;
   padding-top: 1em;
   padding-bottom: -200px;
 }
 
-h3 {
+.vertical-timeline-element-title {
   font-size: 30px;
-  color:  #15CDCD;;
+  color:#640B31;
 }
 
 .vertical-timeline-element-content {
@@ -48,7 +48,7 @@ h3 {
 .buttonText1 {
   background-color: #078282;
   padding: 10px;
-  border-radius: 10px; 
+  border-radius: 10px;
   font-weight: bold;
 }
 .buttonText2 {

@@ -11,7 +11,7 @@ body {
 
 
 .interests {
-  background-color: #0a5165;
+  background-color: #052646;
   position: relative;
   left: 0;
   right: 0;
@@ -43,7 +43,7 @@ body {
   padding-bottom: 5px;
 }
 span {
-  color:rgb(181, 230, 236);
+  color:rgb(14, 220, 244);
   font-size: 30px;
 }
 #flipcards {
@@ -73,11 +73,6 @@ span {
   height: 40%;
   transition: transform 5s;
   transform-style: preserve-3d;
-    background: linear-gradient(
-    0deg,
-    #27292A 24%,
-    #3B3D3F 81% 
-   ); 
   border: 3px solid #052646;
   border-radius: 5%;
   transition: transform 1500ms;
@@ -114,11 +109,12 @@ span {
 
 .flip-card-back {
   transform: rotateY(180deg);
-   background: linear-gradient(
+  background: #27292A;
+   /* background: linear-gradient(
     0deg,
     #27292A 24%,
     #3B3D3F 81% 
-   ); 
+   );  */
   top: 0;
   left: 0;
   right: 0;

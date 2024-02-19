@@ -27,6 +27,7 @@ body {
 .madeleine,
 .matthieu {
   border-radius: 70% 30% 71% 29% / 41% 74% 26% 59%;
+  animation: morph 6s ease-in-out infinite;
   background-color: aquamarine;
   width: 15%;
 }
@@ -38,9 +39,32 @@ body {
   width: 20%;
   height: 25%;
   border-radius:70% 30% 71% 29% / 41% 74% 26% 59%;
+  animation: morph 6s ease-in-out infinite;
   background-color: #13cdcd;
   z-index: -1;
+  
 }
+
+
+@keyframes morph{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    opacity: .89;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
 
 .quotes {
   font-size: 25px;

@@ -1,46 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap");
 
 :root {
---color: black;
+  --color: black;
 }
 * {
 }
 
 /* body { */
-  /* background-image: url("../src/assets/images/herobg.png"); */
-   /* background: linear-gradient( 
+/* background-image: url("../src/assets/images/herobg.png"); */
+/* background: linear-gradient( 
     to bottom,  */
-    /* option1  */
-    /* #3C3E40 0%,
+/* option1  */
+/* #3C3E40 0%,
     #3C3E40 50%,
     #252729 50%,
     #252729 100%
    */
-    /* option 2  THIS ONE */
-    /* #3C3E40 0%,
+/* option 2  THIS ONE */
+/* #3C3E40 0%,
     #252729 50%,
     #252729 50%, 
     #252729 75%,  
     #252729 75%,  
     #3C3E40 100% */
-  
-    /* ); 
+
+/* ); 
      background-repeat: repeat-y; 
      background-size: 100% 200vh; 
      height: 200vh;
      font-family: 'Inconsolata', monospace;
 } */
 
-body{
- background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../src/assets/images/abstract.jpg"); 
-/* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../src/assets/images/abstract-color.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../src/assets/images/herobg.png"); */
   background-repeat: no-repeat;
-  background-size: 100% 100vh; 
+  background-size: 100% 100vh;
   height: 200vh;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
