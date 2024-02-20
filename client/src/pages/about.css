@@ -1,5 +1,7 @@
 body {
+  overflow-x: hidden;
   margin: 0;
+  padding: 0;
 }
 
 .about {
@@ -135,8 +137,41 @@ body {
 .bg {
   font-size: 40px;
 }
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+       body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  .About-me,
+  .overview,
+  .bg {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 40px;
+    transform:translateY(40px);
+  }
+  .About-me {
+     transform:translateY(60px);
+  }
+  .overview{
+    font-size: 2em;
+  }
+  .bg {
+    margin-top: -300px;
+    font-size: 3em;
+  }
+  .media-scroller-container {
+    margin-left: 50px;
+    transform:translateY(20px);
+  }
+}
 
 @media screen and (min-width: 390px) and (max-width: 1024px) {
+        body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
   .About-me,
   .overview,
   .bg {

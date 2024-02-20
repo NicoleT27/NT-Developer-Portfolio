@@ -1,7 +1,8 @@
 body {
+  overflow-x: hidden;
   margin: 0;
+  padding: 0;
 }
-
 .projects {
   margin-top: 57px;
   background-color: #000416;
@@ -67,9 +68,29 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width: 390px) and (max-width: 1024px) {
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+        body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
   .project-title {
-    font-size: 4em;
+    font-size: 2em;
+  }
+  .buttonText1,
+  .buttonText2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 1024px) {
+       body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  .project-title {
+    font-size: 2em;
   }
   .buttonText1,
   .buttonText2 {

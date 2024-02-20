@@ -1,3 +1,9 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -222,8 +228,69 @@ p {
 .home-link:visited {
   color: white;
 }
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+    body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
 
+  .contact-me, h6 {
+    display: none;
+  }
+  
+  .me-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    transform:translateY(-280px);
+  }
+
+  .header-text {
+    margin-left: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .navbar a {
+    margin-right: 0;
+    margin-top: 20px;
+    padding: 0.5em 0;
+    text-align: right;
+  }
+
+  .header-name,
+  .header-title {
+    margin-left: 0;
+    text-align: center;
+  }
+  .header-name {
+    padding-bottom: 60px;
+  }
+  .header-title {
+    padding-top: 120px;
+  }
+
+  .paragraph-home {
+    padding: 0 20px;
+  }
+  .learn-more {
+    display: none;
+  }
+  .me {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
 @media screen and (min-width: 390px) and (max-width: 1024px) {
+      body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
   .contact-me, h6 {
     display: none;
   }

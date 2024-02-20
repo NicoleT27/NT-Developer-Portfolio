@@ -1,5 +1,7 @@
 body {
+  overflow-x: hidden !important;
   margin: 0;
+  padding: 0;
 }
 
 .testimonial {
@@ -96,13 +98,61 @@ body {
   color: #96999c;
 }
 
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+  body {
+  overflow-x: hidden !important;
+  }
+  .test-title {
+    font-size: 2em;
+  }
+  .blob {
+   position:absolute;
+  top: 5px;
+  left: 90px;
+  width: 40%;
+  height: 13%;
+  border-radius:70% 30% 71% 29% / 41% 74% 26% 59%;
+  animation: morph 6s ease-in-out infinite;
+  background-color: #13cdcd;
+  z-index: -1;
+  }
+  .quote {
+    color:#b5e6ec;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 120px;
+    padding-bottom: 900px;
+  }
+  .alejandra,
+  .madeleine,
+  .matthieu {
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+  .from,
+  .quotes,.name {
+    margin-right: 120px;
+  }
+}
+
+
 @media screen and (min-width: 390px) and (max-width: 1024px) {
+      body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  .test-title {
+    font-size: 2em;
+  }
   .blob {
    position:absolute;
   top: 5px;
   left: 105px;
   width: 40%;
-  height: 19%;
+  height: 17%;
   border-radius:70% 30% 71% 29% / 41% 74% 26% 59%;
   animation: morph 6s ease-in-out infinite;
   background-color: #13cdcd;
@@ -114,7 +164,7 @@ body {
     text-align: left;
     margin: 0 auto;
     margin-right: 80px;
-    padding-bottom: 500px;
+    padding-bottom: 600px;
   }
   .alejandra,
   .madeleine,
@@ -127,5 +177,45 @@ body {
   .from,
   .quotes,.name {
     margin-right: 80px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+      body, html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  .test-title {
+    font-size: 2em;
+  }
+  .blob {
+   position:absolute;
+  top: 5px;
+  left: 200px;
+  width: 40%;
+  height: 21%;
+  border-radius:70% 30% 71% 29% / 41% 74% 26% 59%;
+  animation: morph 6s ease-in-out infinite;
+  background-color: #13cdcd;
+  z-index: -1;
+  }
+  .quote {
+    color:#b5e6ec;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 200px;
+    padding-bottom: 300px;
+  }
+  .alejandra,
+  .madeleine,
+  .matthieu {
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+  .from,
+  .quotes,.name {
+    margin-right: 120px;
   }
 }
