@@ -106,11 +106,8 @@ span {
 .flip-card-back {
   transform: rotateY(180deg);
   background: #27292A;
-   /* background: linear-gradient(
-    0deg,
-    #27292A 24%,
-    #3B3D3F 81% 
-   );  */
+  border-radius: 5%;
+  padding:17px;
   top: 0;
   left: 0;
   right: 0;
@@ -160,6 +157,16 @@ span {
   width: 60%;
   height: 60%;
 }  
+ .flip-card-back {
+ border-radius: 5%;
+ padding:5px;
+  width: 60%;
+  height: 60%;
+  font-size: smaller;
+ }
+.card{
+  border:none;
+}
 .language {
   margin-right: 20px;
 }
@@ -209,6 +216,16 @@ span {
   width: 60%;
   height: 60%;
 }  
+ .flip-card-back {
+ border-radius: 5%;
+ padding:5px;
+  width: 60%;
+  height: 60%;
+  font-size: smaller;
+ }
+.card{
+  border:none;
+}
 .language {
   margin-right: 20px;
 }
@@ -249,52 +266,23 @@ span {
 .card-container2 {
   transform: translateX(205px);
 }
+
   .flip-card-front {
   width: 60%;
   height: 60%;
 }  
+ .flip-card-back {
+ border-radius: 5%;
+ padding:5px;
+  width: 60%;
+  height: 60%;
+  font-size: smaller;
+ }
+.card{
+  border:none;
+}
 .language {
   margin-right: 20px;
 }
- 
-}
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-       body, html {
-    overflow-x: hidden;
-    max-width: 100%;
-  }
-  .interest-title {
-  font-size: 2em;
-}
- .language1 {
-    margin-left: 220px;
-  }
-  .language2 {
-    transform: translateY(-30px);
-    margin-left: 200px;
-  }
-  span {
-    display: none;
-  }
-
-  #flipcards {
-    transform: translateX(-625px);
-    width: 300%;
-    margin-top: 100px;
-    margin-left: 250px;
-  }
-.card-container,
-.card-container2 {
-  width: 200px;
-  height: 590px;
-  margin-right: -70px;
-}
-.card-container2 {
-  transform: translateX(205px);
-}
-  .flip-card-front {
-  width: 70%;
-  height: 80%;
-}  
  
 }

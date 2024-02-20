@@ -12,6 +12,6 @@ body {
   background-size: 100% 100vh;
   height: 200vh;
   font-family: "Inconsolata", monospace;
-     max-width: 100%;
-  overflow-x: hidden !important;
+     /* max-width: 100%;
+  overflow-x: hidden !important; */
 }
