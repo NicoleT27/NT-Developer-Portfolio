@@ -233,7 +233,9 @@ p {
     overflow-x: hidden;
     max-width: 100%;
   }
-
+  .header-text {
+  position: relative;
+}
   .contact-me, h6 {
     display: none;
   }
@@ -290,6 +292,9 @@ p {
     overflow-x: hidden;
     max-width: 100%;
   }
+.header-text {
+  position: relative;
+}
 
   .contact-me, h6 {
     display: none;
@@ -305,6 +310,7 @@ p {
 
   .header-text {
     margin-left: 10px;
+
   }
 
   .navbar {

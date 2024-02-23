@@ -73,6 +73,10 @@ body {
     overflow-x: hidden;
     max-width: 100%;
   }
+  .date {
+  color: #640B31;
+  font-weight: bold;
+}
   .project-title {
     font-size: 2em;
   }
@@ -89,6 +93,10 @@ body {
     overflow-x: hidden;
     max-width: 100%;
   }
+    .date {
+  color: #640B31;
+  font-weight: bold;
+}
   .project-title {
     font-size: 2em;
   }

@@ -194,14 +194,7 @@ a:visited {
     margin-top: 30px;
   }
 
-  .contact-intro {
-    transform: translateX(-650px);
-    margin-top: -680px;
-    margin-left: -110px;
-    overflow-wrap: break-word;
-    width: 90%;
-    text-align: left;
-  }
+
   .phone-titles,
   .email-titles,
   .contact2-titles {
@@ -260,9 +253,8 @@ a:visited {
   }
 
   .contact-intro {
-    transform: translateX(-650px);
-    margin-top: -680px;
-    margin-left: -110px;
+    margin-top: -610px; 
+     margin-right: -100px; 
     overflow-wrap: break-word;
     width: 90%;
     text-align: left;

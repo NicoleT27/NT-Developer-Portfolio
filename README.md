@@ -46,7 +46,8 @@ This webpage was created to provide information on Nicole Torres and her experie
 
 ## References
 - Images used from freepik
-Image by <a href="https://www.freepik.com/free-vector/abstract-classic-blue-background_6671417.htm#page=2&query=abstract%20background&position=1&from_view=search&track=ais&uuid=c76bb457-3b12-4a8c-a695-fa3286b6eab9">Freepik</a>
+
+Image by <a href="https://www.freepik.com/free-vector/halftone-background-with-circles_13295064.htm#query=abstract%20background&position=1&from_view=search&track=ais&uuid=d6904fc3-760f-4381-829b-7745a2f26c6a">Freepik</a>
 
 - <a href="https://storyset.com/work">Work illustrations by Storyset</a>
 
