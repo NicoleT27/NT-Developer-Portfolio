@@ -1,11 +1,18 @@
+
 import React from "react";
+import { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import "./home.css";
 import "../../src/pages/home.css";
 import me from "../assets/images/profile-pic4.png";
 
 
-function home() {
+function home() {  
+   const [showMenu, setShowMenu] = useState(false);
+
+   const toggleMenu = () => {
+     setShowMenu(!showMenu);
+   };
   return (
     <div>
       <header>
@@ -13,48 +20,53 @@ function home() {
           <h2>NT</h2>
           <h2 className="dot">.</h2>
         </div>
-        <div className="navbar">
-          <ScrollLink to="bg" className="link" smooth={true} duration={500}>
-            About Me
-          </ScrollLink>
-          <ScrollLink
-            to="projects"
-            className="link"
-            smooth={true}
-            duration={500}
-          >
-            Projects
-          </ScrollLink>
-          <ScrollLink
-            to="test-title"
-            className="link"
-            smooth={true}
-            duration={500}
-          >
-            Testimonials
-          </ScrollLink>
-          <ScrollLink
-            to="interest-title"
-            className="link"
-            smooth={true}
-            duration={500}
-          >
-            Interests
-          </ScrollLink>
-          <ScrollLink
-            to="contact-title"
-            className="link"
-            smooth={true}
-            duration={500}
-          >
-            Contact
-          </ScrollLink>
-          <a
-            href={"../../src/assets/Full-Stack-Web-Development-Resume.pdf"}
-            download
-          >
-            Resume
-          </a>
+        <div className={`navbar ${showMenu ? "show" : ""}`}>
+          <button className="hamburger" onClick={toggleMenu}>
+            &#9776;
+          </button>
+          {/* <nav> */}
+            <ScrollLink to="bg" className="link" smooth={true} duration={500}>
+              About Me
+            </ScrollLink>
+            <ScrollLink
+              to="projects"
+              className="link"
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </ScrollLink>
+            <ScrollLink
+              to="test-title"
+              className="link"
+              smooth={true}
+              duration={500}
+            >
+              Testimonials
+            </ScrollLink>
+            <ScrollLink
+              to="interest-title"
+              className="link"
+              smooth={true}
+              duration={500}
+            >
+              Interests
+            </ScrollLink>
+            <ScrollLink
+              to="contact-title"
+              className="link"
+              smooth={true}
+              duration={500}
+            >
+              Contact
+            </ScrollLink>
+            <a
+              href={"../../src/assets/Full-Stack-Web-Development-Resume.pdf"}
+              download
+            >
+              Resume
+            </a>
+          {/* </nav> */}
         </div>
       </header>
       <div className="me-container">
