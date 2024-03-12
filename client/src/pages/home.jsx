@@ -61,7 +61,7 @@ function home() {
               Contact
             </ScrollLink>
             <a
-              href={"../../src/assets/Full-Stack-Web-Development-Resume.pdf"}
+              href={"../../src/assets/Web-Development-Resume.pdf"}
               download
             >
               Resume
