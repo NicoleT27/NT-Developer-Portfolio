@@ -98,7 +98,7 @@ function Contact() {
           Dont be Shy!
           <br></br>
           Fell Free to get in touch with me. I am always open to discussing new
-          oppurtunities.
+          opportunities.
         </div>
         <div className="icons">
           <a href="tel:+14076164437">
