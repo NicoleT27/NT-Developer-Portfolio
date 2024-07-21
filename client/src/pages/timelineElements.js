@@ -3,16 +3,18 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Playful Pixels",
+    title: "Lighting Dictionary",
     catagory: "React Project",
-    description: "An arcade lobby with multiple games",
+    description:
+      "Currently developing a full-stack application using the MERN stack for a client in the AV industry.The project showcases a comprehensive reference guide for lighting spec comparisons across various categories, tailored to different events and requirements.",
     buttonText1: "Visit Website",
-    buttonLink1: "playful-pixels-production.up.railway.app",
+    buttonLink1:
+      "https://lighting-designer-calculator-production.up.railway.app/",
     buttonText2: "View source code",
-    buttonLink2: "https://github.com/NicoleT27/Playful-Pixels-",
-    date: "December 2023",
+    buttonLink2: "https://github.com/NicoleT27/Lighting-Designer--Calculator",
+    date: "Present",
     iconColor: "orange",
-    icon: "🕹️",
+    icon: "📓",
   },
   // {
   //   id: 2,
@@ -29,18 +31,17 @@ let timelineElements = [
   //   icon: "💻",
   // },
   {
-    id: 3,
-    title: "RoamRadar",
-    catagory: "Javascript Project",
-    description:
-      "A digital itinerary dedicated to organizing and sorting travel plans in one convenient place.",
+    id: 1,
+    title: "Playful Pixels",
+    catagory: "React Project",
+    description: "An arcade lobby with multiple games",
     buttonText1: "Visit Website",
-    buttonLink1: "https://saragar710.github.io/Travel-Itinerary/",
+    buttonLink1: "https://playful-pixels-production.up.railway.app/login",
     buttonText2: "View source code",
-    buttonLink2: "https://github.com/NicoleT27/Travel-Itinerary",
-    date: "August 2023",
+    buttonLink2: "https://github.com/NicoleT27/Playful-Pixels-",
+    date: "December 2023",
     iconColor: "orange",
-    icon: "🌍",
+    icon: "🕹️",
   },
   {
     id: 4,

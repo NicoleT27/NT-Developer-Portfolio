@@ -71,7 +71,9 @@ import git from "../assets/images/git.png";
           <h2 className="lang">Git</h2>
         </div>
       </div>
+      <h1 className="arrow">→</h1>
     </div>
+
   );
   }
   export default About;

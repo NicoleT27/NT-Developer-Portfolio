@@ -5,6 +5,7 @@ import { Link as ScrollLink } from "react-scroll";
 import "./home.css";
 import "../../src/pages/home.css";
 import me from "../assets/images/profile-pic4.png";
+import resumePDF from "../../src/assets/Web-Dev-Resume.pdf";
 
 
 function home() {  
@@ -25,47 +26,44 @@ function home() {
             &#9776;
           </button>
           {/* <nav> */}
-            <ScrollLink to="bg" className="link" smooth={true} duration={500}>
-              About Me
-            </ScrollLink>
-            <ScrollLink
-              to="projects"
-              className="link"
-              smooth={true}
-              duration={500}
-            >
-              Projects
-            </ScrollLink>
-            <ScrollLink
-              to="test-title"
-              className="link"
-              smooth={true}
-              duration={500}
-            >
-              Testimonials
-            </ScrollLink>
-            <ScrollLink
-              to="interest-title"
-              className="link"
-              smooth={true}
-              duration={500}
-            >
-              Interests
-            </ScrollLink>
-            <ScrollLink
-              to="contact-title"
-              className="link"
-              smooth={true}
-              duration={500}
-            >
-              Contact
-            </ScrollLink>
-            <a
-              href={"../../src/assets/Web-Development-Resume.pdf"}
-              download
-            >
-              Resume
-            </a>
+          <ScrollLink to="bg" className="link" smooth={true} duration={500}>
+            About Me
+          </ScrollLink>
+          <ScrollLink
+            to="projects"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
+            Projects
+          </ScrollLink>
+          <ScrollLink
+            to="test-title"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
+            Testimonials
+          </ScrollLink>
+          <ScrollLink
+            to="interest-title"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
+            Interests
+          </ScrollLink>
+          <ScrollLink
+            to="contact-title"
+            className="link"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </ScrollLink>
+          <a href={resumePDF} download>
+            Resume
+          </a>
           {/* </nav> */}
         </div>
       </header>
@@ -77,11 +75,16 @@ function home() {
               <a
                 href="https://www.linkedin.com/in/nicolet27/"
                 className="home-link"
+                target="_blank"
               >
                 <h6>Linkedin</h6>
               </a>
               <h6 className="space">|</h6>
-              <a href="https://github.com/NicoleT27" className="home-link">
+              <a
+                href="https://github.com/NicoleT27"
+                className="home-link"
+                target="_blank"
+              >
                 <h6>Github</h6>
               </a>
             </div>

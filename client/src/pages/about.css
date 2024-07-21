@@ -20,7 +20,7 @@ body {
   gap: 20px;
   text-align: center;
   overflow-x: auto;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
   margin-top: 60px;
   margin-left: 50px;
   margin-right: 35px;
@@ -52,6 +52,11 @@ body {
   height: 60px;
 }
 
+.arrow {
+  padding-top: -5px;
+    padding-bottom: 35px;
+    text-align: center;
+}
 .bg {
   margin-left: 30px;
   padding-top: 60px;

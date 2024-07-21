@@ -107,10 +107,10 @@ function Contact() {
           <a href="mailto:nicolejoan9@yahoo.com">
             <TfiEmail />
           </a>
-          <a href="https://www.linkedin.com/in/nicolet27/">
+          <a href="https://www.linkedin.com/in/nicolet27/" target="_blank">
             <BsLinkedin />
           </a>
-          <a href="https://github.com/NicoleT27">
+          <a href="https://github.com/NicoleT27" target="_blank">
             <FaGithub />
           </a>
         </div>
